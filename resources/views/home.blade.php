@@ -225,7 +225,6 @@
         <div class="sec-title centred pb_60 sec-title-animation animation-style2">
             <span class="sub-title mb_10 title-animation">With Us</span>
             <h2 class="title-animation">Why Sponto?</h2>
-            <p>Long Established fact that a reader will be distracted by the readable content of a page</p>
         </div>
         <div class="inner-container">
             <div class="row clearfix">
@@ -342,8 +341,6 @@
     </div>
 </section>
 <!-- industries-section end -->
-
-
 <section class="funfact-section alternat-2 centred pb_90">
     <div class="auto-container">
         <div class="row clearfix">
@@ -351,7 +348,7 @@
                 <div class="funfact-block-one">
                     <div class="inner-box">
                         <div class="count-outer">
-                            <span class="odometer" data-count="70">00</span><span class="symble"> +</span>
+                            <span class="odometer" data-count="70">00</span><span class="symble">+</span>
                         </div>
                         <p>Employee hired in last year</p>
                     </div>
@@ -361,7 +358,7 @@
                 <div class="funfact-block-one">
                     <div class="inner-box">
                         <div class="count-outer">
-                            <span class="odometer" data-count="97">00</span><span class="symble"> %</span>
+                            <span class="odometer" data-count="97">00</span><span class="symble">%</span>
                         </div>
                         <p>Job Fulfillment Rate</p>
                     </div>
@@ -371,7 +368,7 @@
                 <div class="funfact-block-one">
                     <div class="inner-box">
                         <div class="count-outer">
-                            <span class="odometer" data-count="30">00</span><span class="symble"> k+</span>
+                            <span class="odometer" data-count="30">00</span><span class="symble">k+</span>
                         </div>
                         <p>Vetted talent pool</p>
                     </div>
@@ -381,7 +378,7 @@
                 <div class="funfact-block-one">
                     <div class="inner-box">
                         <div class="count-outer">
-                            <span class="odometer" data-count="14">00</span>
+                            <span class="odometer" data-count="14">00</span><span class="symble">+</span>
                         </div>
                         <p>Clients</p>
                     </div>
@@ -390,6 +387,7 @@
         </div>
     </div>
 </section>
+
 
 <section class="industries-style-three centred pt_120 pb_120">
     <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-15.png);"></div>
@@ -554,7 +552,7 @@
                                     <h2>The entire team was impressed with Saud, Salma, and Rimsha's work ethic. We're thrilled to have them on board! Adding Rebekah to our operations team has been a game-changer in streamlining on-field activities.
                                     </h2>
                                     <div class="author-box">
-                                        <figure class="author-thumb"><img src="assets/images/resource/1705149867722.jpeg" alt=""></figure>
+                                        <figure class="author-thumb"><img src="assets/images/resource/01ss.png" alt=""></figure>
                                         <h3>Johanahan Ruiz</h3>
                                         <span class="designation">Director of Operation, Apex Services Partner</span>
                                     </div>
@@ -565,7 +563,7 @@
                                     <div class="icon-box"><i class="icon-36"></i></div>
                                     <h2>We love Maheen, Hareem, and Zahra’s commitment and efficiency. Their contributions have added immense value to our team, and we’re grateful to have them on board!</h2>
                                     <div class="author-box">
-                                        <figure class="author-thumb"><img src="assets/images/resource/1697379002288.jpeg" alt=""></figure>
+                                        <figure class="author-thumb"><img src="assets/images/resource/02ss.png" alt=""></figure>
                                         <h3>Kenton Gray</h3>
                                         <span class="designation">CEO, Veracor Group</span>
                                     </div>
@@ -577,7 +575,7 @@
                                     <h2>With Sam and Sofia on board, our SEO and web development have reached a whole new level of quality. Their expertise and dedication have made a significant impact, and we couldn’t be more pleased with the results!
                                     </h2>
                                     <div class="author-box">
-                                        <figure class="author-thumb"><img src="assets/images/resource/1736447690040.jpeg" alt=""></figure>
+                                        <figure class="author-thumb"><img src="assets/images/resource/03ss.png" alt=""></figure>
                                         <h3>Kelly Joseph
                                         </h3>
                                         <span class="designation">Co-Founder, Scaled AI</span>
