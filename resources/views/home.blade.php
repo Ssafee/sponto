@@ -4,7 +4,7 @@
     .banner-section .content-box h2 {
     max-width: 100%;
     color: var(--title-color);
-    font-size: 64px;
+    font-size: 38px;
     line-height: 70px;
 }
 .banner-section .content-box p {
@@ -29,7 +29,7 @@
     </div>
     <div class="auto-container">
         <div class="content-box">
-            <h2>Scale with proven global experts—remote-ready and results-driven.</h2>
+            <h2>Scale with proven global experts—remote-ready <br> and results-driven.</h2>
             <p>Right talent, right tools, and dedicated support for seamless hiring.</p>
             <div class="btn-box">
                 <a href="https://calendly.com/sponto-pk" target="_blank" class="theme-btn btn-one mr_20"><span>Hire Talents Now</span></a>

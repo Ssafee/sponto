@@ -28,7 +28,7 @@
     <link href="{{ asset('assets/css/elpath.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/color.css') }}" id="jssDefault" rel="stylesheet">
     <link href="{{ asset('assets/css/rtl.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/style.css?v=1.2') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/style.css?v=1.3') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/header.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/banner.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/clients.css') }}" rel="stylesheet">
