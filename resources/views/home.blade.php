@@ -10,6 +10,9 @@
 .banner-section .content-box p {
     color: var(--title-color);
 }
+.odometer-digit{
+    padding: 2px!important;
+}
 </style>
 
 <section class="banner-section p_relative centred">
