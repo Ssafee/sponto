@@ -551,36 +551,36 @@
                             <div class="testimonial-block-three">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-36"></i></div>
-                                    <h2>Company and was impressed by the personalized approach of their recruitment team. They kept me informed at every stage</h2>
-                                    <figure class="signature mb_30"><img src="assets/images/icons/signature-1.png" alt=""></figure>
+                                    <h2>The entire team was impressed with Saud, Salma, and Rimsha's work ethic. We're thrilled to have them on board! Adding Rebekah to our operations team has been a game-changer in streamlining on-field activities.
+                                    </h2>
                                     <div class="author-box">
-                                        <figure class="author-thumb"><img src="assets/images/resource/testimonial-4.png" alt=""></figure>
-                                        <h3>Franklin Bailey</h3>
-                                        <span class="designation">CEO, JobAway</span>
+                                        <figure class="author-thumb"><img src="assets/images/resource/1705149867722.jpeg" alt=""></figure>
+                                        <h3>Johanahan Ruiz</h3>
+                                        <span class="designation">Director of Operation, Apex Services Partner</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="testimonial-block-three">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-36"></i></div>
-                                    <h2>Company and was impressed by the personalized approach of their recruitment team. They kept me informed at every stage</h2>
-                                    <figure class="signature mb_30"><img src="assets/images/icons/signature-1.png" alt=""></figure>
+                                    <h2>We love Maheen, Hareem, and Zahra’s commitment and efficiency. Their contributions have added immense value to our team, and we’re grateful to have them on board!</h2>
                                     <div class="author-box">
-                                        <figure class="author-thumb"><img src="assets/images/resource/testimonial-4.png" alt=""></figure>
-                                        <h3>Franklin Bailey</h3>
-                                        <span class="designation">CEO, JobAway</span>
+                                        <figure class="author-thumb"><img src="assets/images/resource/1697379002288.jpeg" alt=""></figure>
+                                        <h3>Kenton Gray</h3>
+                                        <span class="designation">CEO, Veracor Group</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="testimonial-block-three">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-36"></i></div>
-                                    <h2>Company and was impressed by the personalized approach of their recruitment team. They kept me informed at every stage</h2>
-                                    <figure class="signature mb_30"><img src="assets/images/icons/signature-1.png" alt=""></figure>
+                                    <h2>With Sam and Sofia on board, our SEO and web development have reached a whole new level of quality. Their expertise and dedication have made a significant impact, and we couldn’t be more pleased with the results!
+                                    </h2>
                                     <div class="author-box">
-                                        <figure class="author-thumb"><img src="assets/images/resource/testimonial-4.png" alt=""></figure>
-                                        <h3>Franklin Bailey</h3>
-                                        <span class="designation">CEO, JobAway</span>
+                                        <figure class="author-thumb"><img src="assets/images/resource/1736447690040.jpeg" alt=""></figure>
+                                        <h3>Kelly Joseph
+                                        </h3>
+                                        <span class="designation">Co-Founder, Scaled AI</span>
                                     </div>
                                 </div>
                             </div>
