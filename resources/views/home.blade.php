@@ -351,7 +351,7 @@
                 <div class="funfact-block-one">
                     <div class="inner-box">
                         <div class="count-outer">
-                            <span class="odometer" data-count="70">00</span><span class="symble">+</span>
+                            <span class="odometer" data-count="70">00</span><span class="symble"> +</span>
                         </div>
                         <p>Employee hired in last year</p>
                     </div>
@@ -361,7 +361,7 @@
                 <div class="funfact-block-one">
                     <div class="inner-box">
                         <div class="count-outer">
-                            <span class="odometer" data-count="97">00</span><span class="symble">%</span>
+                            <span class="odometer" data-count="97">00</span><span class="symble"> %</span>
                         </div>
                         <p>Job Fulfillment Rate</p>
                     </div>
@@ -371,7 +371,7 @@
                 <div class="funfact-block-one">
                     <div class="inner-box">
                         <div class="count-outer">
-                            <span class="odometer" data-count="30">00</span><span class="symble">k+</span>
+                            <span class="odometer" data-count="30">00</span><span class="symble"> k+</span>
                         </div>
                         <p>Vetted talent pool</p>
                     </div>
