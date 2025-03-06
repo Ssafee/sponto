@@ -99,11 +99,11 @@
                         <ul class="info">
                             <li>
                                 <img src="assets/images/icons/icon-6.png" alt="">
-                                Call: <a href="tel:(813) 957 9908">(813) 957 9908</a>
+                                 <a href="tel:(813) 957 9908">(813) 957 9908</a>
                             </li>
                             <li>
                                 <img src="assets/images/icons/icon-7.png" alt="">
-                                Mail: <a href="mailto:info@sponto.com">info@sponto.com</a>
+                                 <a href="mailto:info@sponto.com">info@sponto.com</a>
                             </li>
                         </ul>
                         <div class="right-column">
