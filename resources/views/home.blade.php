@@ -549,11 +549,11 @@
                             <div class="testimonial-block-three">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-36"></i></div>
-                                    <h2>The entire team was impressed with Saud, Salma, and Rimsha's work ethic. We're thrilled to have them on board! Adding Rebekah to our operations team has been a game-changer in streamlining on-field activities.
+                                    <h2 style="color: #fff">The entire team was impressed with Saud, Salma, and Rimsha's work ethic. We're thrilled to have them on board! Adding Rebekah to our operations team has been a game-changer in streamlining on-field activities.
                                     </h2>
                                     <div class="author-box">
                                         <figure class="author-thumb"><img src="assets/images/resource/01ss.png" alt=""></figure>
-                                        <h3>Johanahan Ruiz</h3>
+                                        <h3  style="color: #fff">Johanahan Ruiz</h3>
                                         <span class="designation">Director of Operation, Apex Services Partner</span>
                                     </div>
                                 </div>
@@ -561,10 +561,10 @@
                             <div class="testimonial-block-three">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-36"></i></div>
-                                    <h2>We love Maheen, Hareem, and Zahra’s commitment and efficiency. Their contributions have added immense value to our team, and we’re grateful to have them on board!</h2>
+                                    <h2  style="color: #fff">We love Maheen, Hareem, and Zahra’s commitment and efficiency. Their contributions have added immense value to our team, and we’re grateful to have them on board!</h2>
                                     <div class="author-box">
                                         <figure class="author-thumb"><img src="assets/images/resource/02ss.png" alt=""></figure>
-                                        <h3>Kenton Gray</h3>
+                                        <h3  style="color: #fff">Kenton Gray</h3>
                                         <span class="designation">CEO, Veracor Group</span>
                                     </div>
                                 </div>
@@ -572,11 +572,11 @@
                             <div class="testimonial-block-three">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-36"></i></div>
-                                    <h2>With Sam and Sofia on board, our SEO and web development have reached a whole new level of quality. Their expertise and dedication have made a significant impact, and we couldn’t be more pleased with the results!
+                                    <h2  style="color: #fff">With Sam and Sofia on board, our SEO and web development have reached a whole new level of quality. Their expertise and dedication have made a significant impact, and we couldn’t be more pleased with the results!
                                     </h2>
                                     <div class="author-box">
                                         <figure class="author-thumb"><img src="assets/images/resource/03ss.png" alt=""></figure>
-                                        <h3>Kelly Joseph
+                                        <h3  style="color: #fff">Kelly Joseph
                                         </h3>
                                         <span class="designation">Co-Founder, Scaled AI</span>
                                     </div>
