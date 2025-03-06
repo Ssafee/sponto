@@ -1,0 +1,422 @@
+@extends('layouts.app')
+@section('content')
+
+ <!-- page-title -->
+ <section class="page-title centred pt_110">
+            <div class="auto-container">
+                <div class="content-box" style="padding-top: 110px">
+                    <h1 style="font-size: 56px;">About Us</h1>
+                    <ul class="bread-crumb clearfix" style="display: flex; justify-content: center; color: black; padding-top:15px">
+                        <li><a href="index.html" style="color: black;">Home</a></li>
+                        <li>-</li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- page-title end -->
+
+
+        <!-- about-style-four -->
+        <section class="about-style-four pt_120 pb_120">
+            <div class="auto-container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                        <div class="image_block_two">
+                            <div class="image-inner">
+                                <div class="image-box mr_15">
+                                    <figure class="image image-1 mb_15"><img src="assets/images/resource/about-3.jpg" alt=""></figure>
+                                    <figure class="image image-2"><img src="assets/images/resource/about-4.jpg" alt=""></figure>
+                                </div>
+                                <div class="image-box">
+                                    <figure class="image image-3 mb_15"><img src="assets/images/resource/about-5.jpg" alt=""></figure>
+                                    <figure class="image image-4"><img src="assets/images/resource/about-6.jpg" alt=""></figure>
+                                </div>
+                                <div class="support-box">
+                                    <div class="icon-box"><i class="icon-28"></i></div>
+                                    <span>Online Support</span>
+                                    <h4><a href="tel:912556889">+912 (556) 889</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                        <div class="content_block_five">
+                            <div class="content-box">
+                                <div class="sec-title pb_40 sec-title-animation animation-style2">
+                                    <span class="sub-title mb_10 title-animation">About us</span>
+                                    <h2 class="title-animation">The most loved <span>Agency</span></h2>
+                                    <p class="title-animation">Voted the fastest solution to implement the easiest to administer your employee & business.</p>
+                                </div>
+                                <div class="inner-box clearfix">
+                                    <div class="single-item">
+                                        <div class="icon-box"><i class="icon-29"></i></div>
+                                        <h4><a href="job-details.html">Easiest Admin</a></h4>
+                                        <span>Fall 2023</span>
+                                    </div>
+                                    <div class="single-item">
+                                        <div class="icon-box"><i class="icon-30"></i></div>
+                                        <h4><a href="job-details.html">Users love Us</a></h4>
+                                        <span>Winter 2023</span>
+                                    </div>
+                                    <div class="single-item">
+                                        <div class="icon-box"><i class="icon-31"></i></div>
+                                        <h4><a href="job-details.html">Leader</a></h4>
+                                        <span>Winter 2023</span>
+                                    </div>
+                                    <div class="single-item">
+                                        <div class="icon-box"><i class="icon-32"></i></div>
+                                        <h4><a href="job-details.html">Best support</a></h4>
+                                        <span>Winter 2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about-style-four end -->
+
+
+        <!-- clients-section -->
+        <section class="clients-section home-3">
+            <div class="bg-color"></div>
+            <div class="auto-container">
+                <div class="inner-container">
+                    <div class="clients-box">
+                        <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-1.png" alt=""></a></figure>
+                        <figure class="overlay-logo"><a href="index.html"><img src="assets/images/clients/clients-1.png" alt=""></a></figure>
+                    </div>
+                    <div class="clients-box">
+                        <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-2.png" alt=""></a></figure>
+                        <figure class="overlay-logo"><a href="index.html"><img src="assets/images/clients/clients-2.png" alt=""></a></figure>
+                    </div>
+                    <div class="clients-box">
+                        <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-3.png" alt=""></a></figure>
+                        <figure class="overlay-logo"><a href="index.html"><img src="assets/images/clients/clients-3.png" alt=""></a></figure>
+                    </div>
+                    <div class="clients-box">
+                        <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-4.png" alt=""></a></figure>
+                        <figure class="overlay-logo"><a href="index.html"><img src="assets/images/clients/clients-4.png" alt=""></a></figure>
+                    </div>
+                    <div class="clients-box">
+                        <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-5.png" alt=""></a></figure>
+                        <figure class="overlay-logo"><a href="index.html"><img src="assets/images/clients/clients-5.png" alt=""></a></figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- clients-section end -->
+
+
+        <!-- chooseus-section -->
+        <section class="chooseus-section alternat-3 pt_120 pb_90">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-23.png);"></div>
+            <div class="auto-container">
+                <div class="sec-title light centred pb_60 sec-title-animation animation-style2">
+                    <span class="sub-title mb_10 title-animation">Why Us</span>
+                    <h2 class="title-animation">Why Choose Us</h2>
+                </div>
+                <div class="inner-container">
+                    <div class="row clearfix">
+                        <div class="col-lg-4 col-md-6 col-sm-12 chooseus-block">
+                            <div class="chooseus-block-one">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="icon-4"></i></div>
+                                    <h3><a href="index.html">Retain Top Talent</a></h3>
+                                    <p>Providing clear career paths and growth opportunities is key to retaining top talent.</p>
+                                    <div class="link"><a href="index.html">Learn More<i class="icon-7"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 chooseus-block">
+                            <div class="chooseus-block-one">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="icon-5"></i></div>
+                                    <h3><a href="index.html">Stay Compliant</a></h3>
+                                    <p>Educate employees about compliance requirements through regular training</p>
+                                    <div class="link"><a href="index.html">Learn More<i class="icon-7"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 chooseus-block">
+                            <div class="chooseus-block-one">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="icon-6"></i></div>
+                                    <h3><a href="index.html">Improve Employee</a></h3>
+                                    <p>Invest in employee training and development programs to enhance skills and knowledge.</p>
+                                    <div class="link"><a href="index.html">Learn More<i class="icon-7"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- chooseus-section end -->
+
+
+        <!-- industries-style-four -->
+        <section class="industries-style-four pt_120 pb_90">
+            <div class="auto-container">
+                <div class="sec-title centred pb_60 sec-title-animation animation-style2">
+                    <span class="sub-title mb_10 title-animation">Industries</span>
+                    <h2 class="title-animation">Industries Served</h2>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-lg-3 col-md-6 col-sm-12 industries-block">
+                        <div class="industries-block-two">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-9"></i></div>
+                                <h3><a href="index.html">Hotel</a></h3>
+                                <p>2853 Staffs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 industries-block">
+                        <div class="industries-block-two">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-10"></i></div>
+                                <h3><a href="index.html">Hospitality</a></h3>
+                                <p>2256 Staffs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 industries-block">
+                        <div class="industries-block-two">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-11"></i></div>
+                                <h3><a href="index.html">Kitchen</a></h3>
+                                <p>1408 Staffs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 industries-block">
+                        <div class="industries-block-two">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-12"></i></div>
+                                <h3><a href="index.html">Retail</a></h3>
+                                <p>1740 Staffs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 industries-block">
+                        <div class="industries-block-two">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-13"></i></div>
+                                <h3><a href="index.html">Events</a></h3>
+                                <p>3948 Staffs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 industries-block">
+                        <div class="industries-block-two">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-14"></i></div>
+                                <h3><a href="index.html">Labor</a></h3>
+                                <p>2984 Staffs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 industries-block">
+                        <div class="industries-block-two">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-15"></i></div>
+                                <h3><a href="index.html">Driving</a></h3>
+                                <p>4509 Staffs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 industries-block">
+                        <div class="industries-block-two">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-16"></i></div>
+                                <h3><a href="index.html">Caretaker</a></h3>
+                                <p>1039 Staffs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- industries-style-four end -->
+
+
+        <!-- team-section -->
+        <section class="team-section z_1 centred pt_0 pb_0">
+            <div class="auto-container">
+                <div class="sec-title pb_60 sec-title-animation animation-style2">
+                    <span class="sub-title mb_10 title-animation">Our Team</span>
+                    <h2 class="title-animation">Meet The Team</h2>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-lg-3 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <figure class="image"><img src="assets/images/team/team-1.jpg" alt=""></figure>
+                                    <figure class="overlay-image"><img src="assets/images/team/team-1.jpg" alt=""></figure>
+                                </div>
+                                <div class="lower-content">
+                                    <h3><a href="index.html">Tom Oliver</a></h3>
+                                    <span class="designation">Founder</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <figure class="image"><img src="assets/images/team/team-2.jpg" alt=""></figure>
+                                    <figure class="overlay-image"><img src="assets/images/team/team-2.jpg" alt=""></figure>
+                                </div>
+                                <div class="lower-content">
+                                    <h3><a href="index.html">Loenard Barnes</a></h3>
+                                    <span class="designation">Lead Engineer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <figure class="image"><img src="assets/images/team/team-3.jpg" alt=""></figure>
+                                    <figure class="overlay-image"><img src="assets/images/team/team-3.jpg" alt=""></figure>
+                                </div>
+                                <div class="lower-content">
+                                    <h3><a href="index.html">Gilbert Sherman</a></h3>
+                                    <span class="designation">Sale Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <figure class="image"><img src="assets/images/team/team-4.jpg" alt=""></figure>
+                                    <figure class="overlay-image"><img src="assets/images/team/team-4.jpg" alt=""></figure>
+                                </div>
+                                <div class="lower-content">
+                                    <h3><a href="index.html">Franklin Bailey</a></h3>
+                                    <span class="designation">Art Director</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- team-section end -->
+
+
+        <!-- testimonial-style-two -->
+        <section class="testimonial-style-two pt_70 pb_120">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-17.png);"></div>
+            <div class="auto-container">
+                <div class="sec-title centred pb_60 sec-title-animation animation-style2">
+                    <span class="sub-title mb_10 title-animation">Testimonials</span>
+                    <h2 class="title-animation">Love From Users</h2>
+                </div>
+                <div class="two-item-carousel owl-carousel owl-theme owl-nav-none">
+                    <div class="testimonial-block-two">
+                        <div class="inner-box">
+                            <div class="icon-box"><img src="assets/images/icons/icon-11.png" alt=""></div>
+                            <div class="author-box">
+                                <figure class="thumb-box"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
+                                <h4>Evan Clement</h4>
+                                <span class="designation">HR Assistant, NFL</span>
+                            </div>
+                            <p>Company and was impressed by the personalized approach of their recruitment team. They kept me informed at every stage and ensured that I had all the information I needed to succeed.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-two">
+                        <div class="inner-box">
+                            <div class="icon-box"><img src="assets/images/icons/icon-11.png" alt=""></div>
+                            <div class="author-box">
+                                <figure class="thumb-box"><img src="assets/images/resource/testimonial-3.png" alt=""></figure>
+                                <h4>Maharan Depaak</h4>
+                                <span class="designation">CEO, Amaban</span>
+                            </div>
+                            <p>Recently I went through their recruitment process with Jobaway Company, and I was impressed by how the smooth and efficient these were.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-two">
+                        <div class="inner-box">
+                            <div class="icon-box"><img src="assets/images/icons/icon-11.png" alt=""></div>
+                            <div class="author-box">
+                                <figure class="thumb-box"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
+                                <h4>Evan Clement</h4>
+                                <span class="designation">HR Assistant, NFL</span>
+                            </div>
+                            <p>Company and was impressed by the personalized approach of their recruitment team. They kept me informed at every stage and ensured that I had all the information I needed to succeed.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-two">
+                        <div class="inner-box">
+                            <div class="icon-box"><img src="assets/images/icons/icon-11.png" alt=""></div>
+                            <div class="author-box">
+                                <figure class="thumb-box"><img src="assets/images/resource/testimonial-3.png" alt=""></figure>
+                                <h4>Maharan Depaak</h4>
+                                <span class="designation">CEO, Amaban</span>
+                            </div>
+                            <p>Recently I went through their recruitment process with Jobaway Company, and I was impressed by how the smooth and efficient these were.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-two">
+                        <div class="inner-box">
+                            <div class="icon-box"><img src="assets/images/icons/icon-11.png" alt=""></div>
+                            <div class="author-box">
+                                <figure class="thumb-box"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
+                                <h4>Evan Clement</h4>
+                                <span class="designation">HR Assistant, NFL</span>
+                            </div>
+                            <p>Company and was impressed by the personalized approach of their recruitment team. They kept me informed at every stage and ensured that I had all the information I needed to succeed.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-two">
+                        <div class="inner-box">
+                            <div class="icon-box"><img src="assets/images/icons/icon-11.png" alt=""></div>
+                            <div class="author-box">
+                                <figure class="thumb-box"><img src="assets/images/resource/testimonial-3.png" alt=""></figure>
+                                <h4>Maharan Depaak</h4>
+                                <span class="designation">CEO, Amaban</span>
+                            </div>
+                            <p>Recently I went through their recruitment process with Jobaway Company, and I was impressed by how the smooth and efficient these were.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial-style-two end -->
+
+
+        <!-- subscribe-style-two -->
+        <section class="subscribe-style-two">
+            <div class="bg-color"></div>
+            <div class="auto-container">
+                <div class="inner-container">
+                    <div class="shape-box">
+                        <div class="shape-1" style="background-image: url(assets/images/shape/shape-8.png);"></div>
+                        <div class="shape-2" style="background-image: url(assets/images/shape/shape-9.png);"></div>
+                    </div>
+                    <div class="text-box">
+                        <h2>Subscribe for <span>latest update</span></h2>
+                    </div>
+                    <div class="form-inner">
+                        <form method="post" action="contact.html">
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Email Address" required>
+                                <button type="submit" class="theme-btn btn-one">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- subscribe-style-two end -->
+
+@endsection

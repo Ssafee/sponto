@@ -1,0 +1,66 @@
+// $(document).ready(function() {
+    //     // Handle the Delete button click
+    //     $(".delete-admin").on("click", function() {
+    //         var userId = $(this).data('id'); // Get the ID of the user to delete
+
+    //         // Show a confirmation prompt before deleting
+    //         Swal.fire({
+    //             title: "Are you sure?",
+    //             text: "You won't be able to revert this!",
+    //             icon: "warning",
+    //             showCancelButton: true,
+    //             confirmButtonText: "Delete",
+    //             cancelButtonText: "Cancel",
+    //             reverseButtons: true,
+    //             customClass: {
+    //                 confirmButton: "confirm-button-class",
+    //                 cancelButton: "cancel-button-class",
+    //                 icon: "icon-class",
+    //             },
+    //             buttonsStyling: false,
+    //         }).then((result) => {
+    //             if (result.isConfirmed) {
+    //                 // Proceed with the deletion using AJAX
+    //                 $.ajax({
+    //                     url: "{{ route('admin.users.delete') }}", // URL to call the delete method
+    //                     type: 'POST',
+    //                     data: {
+    //                         _token: $('meta[name="csrf-token"]').attr('content'), // CSRF token
+    //                         id: userId // Send the user ID to the server
+    //                     },
+    //                     success: function(response) {
+    //                         if (response.success) {
+    //                             // If deletion is successful, remove the user row from the table
+    //                             $(`.delete-admin[data-id="${userId}"]`).closest('tr').remove();
+    //                             swal.fire({
+    //                                 title: "Deleted!",
+    //                                 text: "Your chat has been deleted.",
+    //                                 icon: "success",
+    //                                 customClass: {
+    //                                     confirmButton: "ok-confirm-button",
+    //                                 },
+    //                             });
+    //                         } else if (result.dismiss === Swal.DismissReason.cancel){
+    //                             swal.fire({
+    //                                 title: "Cancelled",
+    //                                 text: "Action cancelled successfully.",
+    //                                 icon: "error",
+    //                                 customClass: {
+    //                                     confirmButton: "ok-confirm-button2",
+    //                                     icon: "cancel-icon-class",
+    //                                 },
+    //                             });
+    //                         }
+    //                     },
+    //                     // error: function() {
+    //                     //     Swal.fire(
+    //                     //         'Error!',
+    //                     //         'Something went wrong while deleting the user.',
+    //                     //         'error'
+    //                     //     );
+    //                     // }
+    //                 });
+    //             }
+    //         });
+    //     });
+    // });
