@@ -286,10 +286,10 @@
                                 <div class="widget-content">
                                     <ul class="links-list clearfix">
                                         <li><a href="#">Company</a></li>
-                                        <li><a href="#">who are we</a></li>
-                                        <li><a href="#">career</a></li>
-                                        <li><a href="#">solutions</a></li>
-                                        <li><a href="#">contact us</a></li>
+                                        <li><a href="#">Who are we</a></li>
+                                        <li><a href="#">Career</a></li>
+                                        <li><a href="#">Solutions</a></li>
+                                        <li><a href="#">Contact Us</a></li>
 
                                     </ul>
                                 </div>
