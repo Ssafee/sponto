@@ -1405,9 +1405,9 @@ button.ltr {
   display: flex;
   align-items: center;
   width: max-content;
-  -moz-animation: scroll-left 400s linear infinite;
-  -webkit-animation: scroll-left 400s linear infinite;
-  animation: scroll-left 400s linear infinite;
+  -moz-animation: scroll-left 30s linear infinite;
+  -webkit-animation: scroll-left 30s linear infinite;
+  animation: scroll-left 30s linear infinite;
 }
 
 .slide-text .text-inner .text-list li{

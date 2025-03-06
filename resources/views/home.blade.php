@@ -29,7 +29,7 @@
             <h2>Scale with proven global experts—remote-ready and results-driven.</h2>
             <p>Right talent, right tools, and dedicated support for seamless hiring.</p>
             <div class="btn-box">
-                <a href="#" class="theme-btn btn-one mr_20"><span>Hire Talents Now</span></a>
+                <a href="https://calendly.com/sponto-pk" target="_blank" class="theme-btn btn-one mr_20"><span>Hire Talents Now</span></a>
                 <a href="#" class="theme-btn banner-btn">Find Works</a>
             </div>
         </div>
