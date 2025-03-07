@@ -2,10 +2,7 @@
 @section('content')
 <style>
     .banner-section .content-box h2 {
-    max-width: 100%;
     color: var(--title-color);
-    font-size: 38px;
-    line-height: 70px;
 }
 .banner-section .content-box p {
     color: var(--title-color);
