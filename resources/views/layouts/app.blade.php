@@ -30,7 +30,7 @@
     <link href="{{ asset('assets/css/rtl.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/style.css?v=1.3') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/header.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/module-css/banner.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/banner.css?v=1.3') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/clients.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/about.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/funfact.css') }}" rel="stylesheet">
@@ -206,7 +206,7 @@
             <div class="sticky-header">
                 <div class="outer-container">
                     <div class="outer-box">
-                        <figure class="logo-box"><a href="dd#"><img src="assets/images/logo/logo.png"
+                        <figure class="logo-box"><a href="dd#"><img src="{{ asset('assets/images/logo/Logo.png') }}"
                                     alt=""></a></figure>
                         <div class="menu-area">
                             <nav class="main-menu clearfix">

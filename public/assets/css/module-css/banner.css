@@ -22,7 +22,8 @@
 }
 
 .banner-section .content-box h2{
-  font-size: 72px;
+  font-size: 62px;
+  /* font-size: 72px; */
   line-height: 79px;
   color: #fff;
   max-width: 930px;
