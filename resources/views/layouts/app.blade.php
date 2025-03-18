@@ -36,7 +36,7 @@
     <link href="{{ asset('assets/css/module-css/funfact.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/chooseus.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/category.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/module-css/industries.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/industries.css?v=1.3') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/process.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/team.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/news.css') }}" rel="stylesheet">
@@ -298,11 +298,11 @@
                         <div class="col-lg-2 col-md-4 col-sm-12 footer-column">
                             <div class="footer-widget links-widget">
                                 <div class="widget-title">
-                                    <h4>Help & Support</h4>
+                                    <h4>Industries We Serve</h4>
                                 </div>
                                 <div class="widget-content">
                                     <ul class="links-list clearfix">
-                                        <li><a href="#">Specialized Industries</a></li>
+                                        {{-- <li><a href="#">Specialized Industries</a></li> --}}
                                         <li><a href="#">Marketing & Advertising</a></li>
                                         <li><a href="#">Home Services & Construction</a></li>
                                         <li><a href="#">Real Estate</a></li>
