@@ -29,7 +29,7 @@
             <h2>Scale with proven global experts—remote-ready <br> and results-driven.</h2>
             <p>Right talent, right tools, and dedicated support for seamless hiring.</p>
             <div class="btn-box">
-                <a href="https://calendly.com/sponto-pk" target="_blank" class="theme-btn btn-one mr_20"><span>Hire Talents Now</span></a>
+                <a href="https://calendly.com/lets-hire-with-sponto" target="_blank" class="theme-btn btn-one mr_20"><span>Hire Talents Now</span></a>
                 <a href="#" class="theme-btn banner-btn">Find Works</a>
             </div>
         </div>
@@ -49,7 +49,7 @@
                     <h2>Finding Solutions to Staffing Challenges <span>Sponto</span></h2>
                     <p>It's all about placing the right talent with the right tools, backed by a dedicated support team that ensures a seamless, efficient, and results-driven hiring process.</p>
                     <div class="btn-box">
-                        <a href="https://calendly.com/sponto-pk" class="theme-btn btn-one mr_20"><span>Book a Call</span></a>
+                        <a href="https://calendly.com/lets-hire-with-sponto" class="theme-btn btn-one mr_20"><span>Book a Call</span></a>
                         
                     </div>
                 </div>
@@ -470,7 +470,7 @@
                 </div>
             </div>
         </div>
-        <div class="more-btn"><a href="https://calendly.com/sponto-pk" class="theme-btn btn-one">Book a call now</a></div>
+        <div class="more-btn"><a href="https://calendly.com/lets-hire-with-sponto" target="_blank" class="theme-btn btn-one">Book a call now</a></div>
     </div>
 </section>
 
