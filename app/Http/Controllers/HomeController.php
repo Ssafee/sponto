@@ -15,4 +15,18 @@ class HomeController extends Controller
     {
         return view('about');
     }
+    
+    public function contact ()
+    {
+        return view('contact');
+    }
+    public function solution()
+    {
+        return view('solution');
+    }
+
+    public function job_seaker()
+    {
+        return view('job_seaker');
+    }
 }
