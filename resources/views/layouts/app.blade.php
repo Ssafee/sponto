@@ -63,7 +63,7 @@
 
 
         <!-- preloader -->
-        <div class="loader-wrap">
+        {{-- <div class="loader-wrap">
             <div class="preloader">
                 <div class="preloader-close"><i class="icon-27"></i></div>
                 <div id="handle-preloader" class="handle-preloader">
@@ -93,7 +93,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- preloader end -->
 
         <!-- main header -->
@@ -310,7 +310,8 @@
                                     <ul class="links-list clearfix">
                                         {{-- <li><a href="#">Specialized Industries</a></li> --}}
                                         <li><a href="#">Marketing & Advertising</a></li>
-                                        <li><a href="#">Home Services & Construction</a></li>
+                                        <li><a href="#">Home Services</a></li>
+                                        <li><a href="#">Construction</a></li>
                                         <li><a href="#">Real Estate</a></li>
                                         <li><a href="#">Tech Firms</a></li>
                                         <li><a href="#">E-commerce</a></li>

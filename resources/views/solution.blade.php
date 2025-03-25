@@ -130,7 +130,7 @@
             </div>
             <figure class="image-layer-1 p_absolute l_150 b_0"><img src="assets/images/service/women-1-1.png" alt=""></figure>
             <figure class="image-layer-2 p_absolute r_150 b_0"><img src="assets/images/service/men-1-1.png" alt=""></figure>
-            <div class="auto-container">
+            {{-- <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                         <div class="hiring-content align-3 mr_60">
@@ -147,7 +147,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </section>
         <!-- dueal-section end -->
 
