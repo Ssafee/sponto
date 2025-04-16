@@ -293,9 +293,9 @@
                                     <ul class="links-list clearfix">
                                         <li><a href="#">Company</a></li>
                                         <li><a href="#">Who are we</a></li>
-                                        <li><a href="#">Career</a></li>
-                                        <li><a href="#">Solutions</a></li>
-                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="https://sponto.co/job-seaker">Job Seeker</a></li>
+                                        <li><a href="https://sponto.co/solution">Solutions</a></li>
+                                        <li><a href="https://sponto.co/contact">Contact Us</a></li>
 
                                     </ul>
                                 </div>
