@@ -46,7 +46,7 @@
                                 <span>2 - 3 Yrs</span>
                             </div>
                             <div class="btn-box">
-                                <a href="job-details.html" class="theme-btn btn-one">View Details</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7zkTxNuz0KlzbjyLcAhyx1jKu0Ya03HE9eTWH-kwgE-iKuw/viewform?usp=send_form" class="theme-btn btn-one">View Details</a>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                                 <span>2 - 3 Yrs</span>
                             </div>
                             <div class="btn-box">
-                                <a href="job-details.html" class="theme-btn btn-one">View Details</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7zkTxNuz0KlzbjyLcAhyx1jKu0Ya03HE9eTWH-kwgE-iKuw/viewform?usp=send_form" class="theme-btn btn-one">View Details</a>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                                 <span>2 - 3 Yrs</span>
                             </div>
                             <div class="btn-box">
-                                <a href="job-details.html" class="theme-btn btn-one">View Details</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7zkTxNuz0KlzbjyLcAhyx1jKu0Ya03HE9eTWH-kwgE-iKuw/viewform?usp=send_form" class="theme-btn btn-one">View Details</a>
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                                 <span>2 - 3 Yrs</span>
                             </div>
                             <div class="btn-box">
-                                <a href="job-details.html" class="theme-btn btn-one">View Details</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7zkTxNuz0KlzbjyLcAhyx1jKu0Ya03HE9eTWH-kwgE-iKuw/viewform?usp=send_form" class="theme-btn btn-one">View Details</a>
                             </div>
                         </div>
                     </div>
@@ -150,7 +150,7 @@
                                 <span>2 - 3 Yrs</span>
                             </div>
                             <div class="btn-box">
-                                <a href="job-details.html" class="theme-btn btn-one">View Details</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7zkTxNuz0KlzbjyLcAhyx1jKu0Ya03HE9eTWH-kwgE-iKuw/viewform?usp=send_form" class="theme-btn btn-one">View Details</a>
                             </div>
                         </div>
                     </div>
@@ -176,7 +176,7 @@
                                 <span>2 - 3 Yrs</span>
                             </div>
                             <div class="btn-box">
-                                <a href="job-details.html" class="theme-btn btn-one">View Details</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7zkTxNuz0KlzbjyLcAhyx1jKu0Ya03HE9eTWH-kwgE-iKuw/viewform?usp=send_form" class="theme-btn btn-one">View Details</a>
                             </div>
                         </div>
                     </div>
