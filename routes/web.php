@@ -10,4 +10,4 @@ Route::get('/about',[HomeController::class, 'about'])->name('about');
 Route::get('/contact',[HomeController::class, 'contact'])->name('contact_us');
 Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
 Route::get('/solution',[HomeController::class, 'solution'])->name('solution');
-Route::get('/job-seaker',[HomeController::class, 'job_seaker'])->name('job-seaker');
+Route::get('/job-seeker',[HomeController::class, 'job_seaker'])->name('job-seaker');

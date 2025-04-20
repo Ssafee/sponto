@@ -293,7 +293,7 @@
                                     <ul class="links-list clearfix">
                                         <li><a href="#">Company</a></li>
                                         <li><a href="#">Who are we</a></li>
-                                        <li><a href="https://sponto.co/job-seaker">Job Seeker</a></li>
+                                        <li><a href="https://sponto.co/job-seeker">Job Seeker</a></li>
                                         <li><a href="https://sponto.co/solution">Solutions</a></li>
                                         <li><a href="https://sponto.co/contact">Contact Us</a></li>
 
