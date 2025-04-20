@@ -140,7 +140,7 @@
             <div class="header-lower">
                 <div class="auto-container">
                     <div class="outer-box">
-                        <figure class="logo-box"><a href="dd#"><img
+                        <figure class="logo-box"><a href="/"><img
                                     src="{{ asset('assets/images/logo/Logo.png') }}" alt=""></a></figure>
                         <div class="menu-area">
                             <!--Mobile Navigation Toggler-->
@@ -156,12 +156,12 @@
 
                                         </li>
                                          <li><a href="{{ route('about') }}">About</a></li>
-                                        <li class=""><a href="dd#">Solutions</a>
+                                        <li class=""><a href="/">Solutions</a>
 
                                         </li>
-                                        <li class="dropdown"><a href="dd#">Job Seekers</a>
+                                        <li class="dropdown"><a href="/">Job Seekers</a>
                                             <ul>
-                                                <li class="dropdown"><a href="dd#">Job</a>
+                                                <li class="dropdown"><a href="/">Job</a>
                                                     <ul>
                                                         <li><a href="job.html">Place Job</a></li>
                                                         <li><a href="job-2.html">Job Seekers</a></li>
@@ -170,7 +170,7 @@
                                                         <li><a href="job-details.html">Job Details</a></li>
                                                     </ul>
                                                 </li>
-                                                <!-- <li class="dropdown"><a href="dd#">Portfolio</a>
+                                                <!-- <li class="dropdown"><a href="/">Portfolio</a>
                                                     <ul>
                                                         <li><a href="portfolio.html">Portfolio 3 column</a></li>
                                                         <li><a href="portfolio-2.html">Portfolio 2 column</a></li>
@@ -185,7 +185,7 @@
                                                 <li><a href="error.html">404</a></li>
                                             </ul>
                                         </li> --}}
-                                        <!-- <li class="dropdown"><a href="dd#">Blog</a>
+                                        <!-- <li class="dropdown"><a href="/">Blog</a>
                                             <ul>
                                                 <li><a href="blog.html">Blog Grid</a></li>
                                                 <li><a href="blog-2.html">Blog Standard</a></li>
@@ -212,7 +212,7 @@
             <div class="sticky-header">
                 <div class="outer-container">
                     <div class="outer-box">
-                        <figure class="logo-box"><a href="dd#"><img src="{{ asset('assets/images/logo/Logo.png') }}"
+                        <figure class="logo-box"><a href="/"><img src="{{ asset('assets/images/logo/Logo.png') }}"
                                     alt=""></a></figure>
                         <div class="menu-area">
                             <nav class="main-menu clearfix">
