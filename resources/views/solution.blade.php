@@ -28,8 +28,8 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="service-details-2.html"><img src="assets/images/service/service-1-1.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="service-details-2.html"><img src="assets/images/service/service-1-1.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="service-details-2.html"><img src="assets/images/service/service-1.jpg" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="service-details-2.html"><img src="assets/images/service/service-1.jpg" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="service-details-2.html">Full Time Staff</a></h3>
@@ -43,8 +43,8 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="service-details.html"><img src="assets/images/service/service-2-1.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="service-details.html"><img src="assets/images/service/service-2-1.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="service-details.html"><img src="assets/images/service/service-2.jpg" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="service-details.html"><img src="assets/images/service/service-2.jpg" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="service-details.html">Part Time Staff</a></h3>
@@ -58,8 +58,8 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="service-details-6.html"><img src="assets/images/service/service-3-1.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="service-details-6.html"><img src="assets/images/service/service-3-1.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="service-details-6.html"><img src="assets/images/service/service-3.jpg" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="service-details-6.html"><img src="assets/images/service/service-3.jpg" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="service-details-6.html">Business Process Automation</a></h3>
@@ -73,8 +73,8 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="service-details-4.html"><img src="assets/images/service/service-4-1.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="service-details-4.html"><img src="assets/images/service/service-4-1.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="service-details-4.html"><img src="assets/images/service/service-4.jpg" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="service-details-4.html"><img src="assets/images/service/service-4.jpg" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="service-details-4.html">Payroll & HR Support</a></h3>
@@ -88,8 +88,8 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="service-details-5.html"><img src="assets/images/service/service-5-1.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="service-details-5.html"><img src="assets/images/service/service-5-1.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="service-details-5.html"><img src="assets/images/service/service-5.jpg" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="service-details-5.html"><img src="assets/images/service/service-5.jpg" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="service-details-5.html">Contractual Staff</a></h3>
@@ -103,8 +103,8 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="service-details-3.html"><img src="assets/images/service/service-6-1.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="service-details-3.html"><img src="assets/images/service/service-6-1.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="service-details-3.html"><img src="assets/images/service/service-6.jpg" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="service-details-3.html"><img src="assets/images/service/service-6.jpg" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="service-details-3.html">BPO Services</a></h3>
