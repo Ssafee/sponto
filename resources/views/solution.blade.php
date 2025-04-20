@@ -28,8 +28,8 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="#"><img src="assets/images/service/service-1.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="#"><img src="assets/images/service/service-1.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="#"><img src="assets/images/service/service-1.jpg?" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="#"><img src="assets/images/service/service-1.jpg?" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="#">Full Time Staff</a></h3>
@@ -43,8 +43,8 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href#"><img src="assets/images/service/service-2.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href#"><img src="assets/images/service/service-2.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href#"><img src="assets/images/service/service-2.jpg?" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href#"><img src="assets/images/service/service-2.jpg?" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href#">Part Time Staff</a></h3>
@@ -58,8 +58,8 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="#"><img src="assets/images/service/service-3.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="#"><img src="assets/images/service/service-3.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="#"><img src="assets/images/service/service-3.jpg?" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="#"><img src="assets/images/service/service-3.jpg?" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="#">Business Process Automation</a></h3>
@@ -73,8 +73,8 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="#"><img src="assets/images/service/service-4.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="#"><img src="assets/images/service/service-4.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="#"><img src="assets/images/service/service-4.jpg?" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="#"><img src="assets/images/service/service-4.jpg?" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="#">Payroll & HR Support</a></h3>
@@ -88,8 +88,8 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="#"><img src="assets/images/service/service-5.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="#"><img src="assets/images/service/service-5.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="#"><img src="assets/images/service/service-5.jpg?" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="#"><img src="assets/images/service/service-5.jpg?" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="#">Contractual Staff</a></h3>
@@ -103,8 +103,8 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="#"><img src="assets/images/service/service-6.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="#"><img src="assets/images/service/service-6.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="#"><img src="assets/images/service/service-6.jpg?" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="#"><img src="assets/images/service/service-6.jpg?" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
                                     <h3><a href="#">BPO Services</a></h3>
