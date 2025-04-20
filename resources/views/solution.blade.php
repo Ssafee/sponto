@@ -7,7 +7,7 @@
                 <div class="content-box">
                     <h1>Our Solutions</h1>
                     <ul class="bread-crumb clearfix">
-                        <li><a href="index.html">Home</a></li>
+                        <#">Home</a></li>
                         <li>-</li>
                         <li>Our Solutions</li>
                     </ul>
@@ -28,11 +28,11 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="service-details-2.html"><img src="assets/images/service/service-1.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="service-details-2.html"><img src="assets/images/service/service-1.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="#"><img src="assets/images/service/service-1.jpg" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="#"><img src="assets/images/service/service-1.jpg" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a href="service-details-2.html">Full Time Staff</a></h3>
+                                    <h3><a href="#">Full Time Staff</a></h3>
                                     <p>These experts guide new employees through interactive workshops</p>
                                     <div class="btn-box"><a href="#" class="theme-btn btn-one">Learn More</a></div>
                                 </div>
@@ -43,11 +43,11 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="service-details.html"><img src="assets/images/service/service-2.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="service-details.html"><img src="assets/images/service/service-2.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href#"><img src="assets/images/service/service-2.jpg" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href#"><img src="assets/images/service/service-2.jpg" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a href="service-details.html">Part Time Staff</a></h3>
+                                    <h3><a href#">Part Time Staff</a></h3>
                                     <p>Our executive search services are customized to meet your specific</p>
                                     <div class="btn-box"><a href="#" class="theme-btn btn-one">Learn More</a></div>
                                 </div>
@@ -58,11 +58,11 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="service-details-6.html"><img src="assets/images/service/service-3.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="service-details-6.html"><img src="assets/images/service/service-3.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="#"><img src="assets/images/service/service-3.jpg" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="#"><img src="assets/images/service/service-3.jpg" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a href="service-details-6.html">Business Process Automation</a></h3>
+                                    <h3><a href="#">Business Process Automation</a></h3>
                                     <p>Automate repetitive tasks with AI and workflow automation for efficiency.</p>
                                     <div class="btn-box"><a href="#" class="theme-btn btn-one">Learn More</a></div>
                                 </div>
@@ -73,11 +73,11 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="service-details-4.html"><img src="assets/images/service/service-4.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="service-details-4.html"><img src="assets/images/service/service-4.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="#"><img src="assets/images/service/service-4.jpg" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="#"><img src="assets/images/service/service-4.jpg" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a href="service-details-4.html">Payroll & HR Support</a></h3>
+                                    <h3><a href="#">Payroll & HR Support</a></h3>
                                     <p>Streamline payroll, benefits, and HR functions with expert support.</p>
                                     <div class="btn-box"><a href="#" class="theme-btn btn-one">Learn More</a></div>
                                 </div>
@@ -88,11 +88,11 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="service-details-5.html"><img src="assets/images/service/service-5.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="service-details-5.html"><img src="assets/images/service/service-5.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="#"><img src="assets/images/service/service-5.jpg" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="#"><img src="assets/images/service/service-5.jpg" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a href="service-details-5.html">Contractual Staff</a></h3>
+                                    <h3><a href="#">Contractual Staff</a></h3>
                                     <p>Skilled professionals for short-term projects and specific roles.</p>
                                     <div class="btn-box"><a href="#" class="theme-btn btn-one">Learn More</a></div>
                                 </div>
@@ -103,11 +103,11 @@
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="service-details-3.html"><img src="assets/images/service/service-6.jpg" alt=""></a></figure>
-                                    <figure class="overlay-image"><a href="service-details-3.html"><img src="assets/images/service/service-6.jpg" alt=""></a></figure>
+                                    <figure class="image"><a href="#"><img src="assets/images/service/service-6.jpg" alt=""></a></figure>
+                                    <figure class="overlay-image"><a href="#"><img src="assets/images/service/service-6.jpg" alt=""></a></figure>
                                 </div>
                                 <div class="lower-content">
-                                    <h3><a href="service-details-3.html">BPO Services</a></h3>
+                                    <h3><a href="#">BPO Services</a></h3>
                                     <p>Outsource essential operations like customer support, data entry, and back-office tasks.</p>
                                     <div class="btn-box"><a href="#" class="theme-btn btn-one">Learn More</a></div>
                                 </div>
@@ -136,14 +136,14 @@
                         <div class="hiring-content align-3 mr_60">
                             <h2>Professions Hiring</h2>
                             <p>This dynamic hiring landscape presents a wealth of opportunities for professionals across</p>
-                            <a href="service.html" class="theme-btn btn-one">Professions</a>
+                           #" class="theme-btn btn-one">Professions</a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                         <div class="hiring-content light ml_45">
                             <h2>Industries Hiring</h2>
                             <p>The current job market is dynamic, with numerous industries actively seeking new talent</p>
-                            <a href="service.html" class="theme-btn btn-one">Industries</a>
+                           #" class="theme-btn btn-one">Industries</a>
                         </div>
                     </div>
                 </div>
