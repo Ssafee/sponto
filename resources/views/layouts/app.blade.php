@@ -155,6 +155,8 @@
                                     <li><a href="{{ route('job-seaker') }}">Job Seeker</a></li>
                                     <li><a href="{{ route('solution') }}">Solutions</a></li>
                                     <li><a href="{{ route('contact_us') }}">Contact</a></li>
+                                    <li><a href="{{ route('terms-conditions') }}">Terms & Conditions</a></li>
+                                    <li><a href="{{ route('privacy-policy') }}">Privacy Policy</a></li>
                                     
                                     
                                         {{--<li class=""><a href="{{ route('home') }}">Solutions</a>

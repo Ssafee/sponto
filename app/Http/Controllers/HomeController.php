@@ -29,4 +29,13 @@ class HomeController extends Controller
     {
         return view('job_seaker');
     }
+    public function privacy_policy()
+    {
+        return view('privacy_policy');
+    }
+    public function terms_conditions()
+    {
+        return view('terms_conditions');
+    }
+    
 }

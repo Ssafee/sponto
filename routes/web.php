@@ -11,3 +11,5 @@ Route::get('/contact',[HomeController::class, 'contact'])->name('contact_us');
 Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
 Route::get('/solution',[HomeController::class, 'solution'])->name('solution');
 Route::get('/job-seeker',[HomeController::class, 'job_seaker'])->name('job-seaker');
+Route::get('/privacy-policy',[HomeController::class, 'privacy_policy'])->name('privacy-policy');
+Route::get('/terms-conditions',[HomeController::class, 'terms_conditions'])->name('terms-conditions');
