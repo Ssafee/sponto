@@ -29,7 +29,7 @@
             <h2>Scale with proven global experts—remote-ready <br> and results-driven.</h2>
             <p>Right talent, right tools, and dedicated support for seamless hiring.</p>
             <div class="btn-box">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4PciQ2jQySvU9GWaCEn2qdNNn80MVcWC06eWeGkHIgSUmlQ/viewform" target="_blank" class="theme-btn btn-one mr_20"><span>Hire Talents Now</span></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7zkTxNuz0KlzbjyLcAhyx1jKu0Ya03HE9eTWH-kwgE-iKuw/viewform?usp=send_form" target="_blank" class="theme-btn btn-one mr_20"><span>Hire Talents Now</span></a>
                 <a href="#" class="theme-btn banner-btn">Find Works</a>
             </div>
         </div>
@@ -49,7 +49,7 @@
                     <h2>Finding Solutions to Staffing Challenges <span>Sponto</span></h2>
                     <p>It's all about placing the right talent with the right tools, backed by a dedicated support team that ensures a seamless, efficient, and results-driven hiring process.</p>
                     <div class="btn-box">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4PciQ2jQySvU9GWaCEn2qdNNn80MVcWC06eWeGkHIgSUmlQ/viewform" class="theme-btn btn-one mr_20"><span>Book a Call</span></a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7zkTxNuz0KlzbjyLcAhyx1jKu0Ya03HE9eTWH-kwgE-iKuw/viewform?usp=send_form" class="theme-btn btn-one mr_20"><span>Book a Call</span></a>
                         
                     </div>
                 </div>
@@ -470,7 +470,7 @@
                 </div>
             </div>
         </div>
-        <div class="more-btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4PciQ2jQySvU9GWaCEn2qdNNn80MVcWC06eWeGkHIgSUmlQ/viewform" target="_blank" class="theme-btn btn-one">Book a call now</a></div>
+        <div class="more-btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe7zkTxNuz0KlzbjyLcAhyx1jKu0Ya03HE9eTWH-kwgE-iKuw/viewform?usp=send_form" target="_blank" class="theme-btn btn-one">Book a call now</a></div>
     </div>
 </section>
 
@@ -498,7 +498,7 @@
                                 <li class="accordion block active-block">
                                     <div class="acc-btn active">
                                         <div class="icon-box"><i class="icon-21"></i></div>
-                                        <h4>1. How does the candidate selection process work?</h4>
+                                        <h4>How does the candidate selection process work?</h4>
                                     </div>
                                     <div class="acc-content current">
                                         <div class="content">
