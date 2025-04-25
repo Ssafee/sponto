@@ -26,7 +26,7 @@
     </div>
     <div class="auto-container">
         <div class="content-box">
-            <h2>Scale with proven global experts—remote-ready <br> and results-driven.</h2>
+            <h2>Helping Companies Hire Top Remote Talent</h2>
             <p>Right talent, right tools, and dedicated support for seamless hiring.</p>
             <div class="btn-box">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4PciQ2jQySvU9GWaCEn2qdNNn80MVcWC06eWeGkHIgSUmlQ/viewform" target="_blank" class="theme-btn btn-one mr_20"><span>Hire Talents Now</span></a>
@@ -236,9 +236,9 @@
                     <div class="chooseus-block-one">
                         <div class="inner-box">
                             <div class="icon-box"><i class="icon-4"></i></div>
-                            <h3><a href="#">Access to Top Remote Talent</a></h3>
+                            <h3><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4PciQ2jQySvU9GWaCEn2qdNNn80MVcWC06eWeGkHIgSUmlQ/viewform">Access to Top Remote Talent</a></h3>
                             <p>Hire skilled professionals from a global talent pool, ready to drive your business forward.</p>
-                            <div class="link"><a href="#">Learn More<i class="icon-7"></i></a></div>
+                            <div class="link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4PciQ2jQySvU9GWaCEn2qdNNn80MVcWC06eWeGkHIgSUmlQ/viewform">Learn More<i class="icon-7"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -246,9 +246,9 @@
                     <div class="chooseus-block-one">
                         <div class="inner-box">
                             <div class="icon-box"><i class="icon-5"></i></div>
-                            <h3><a href="#">Free 90 days replacement</a></h3>
+                            <h3><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4PciQ2jQySvU9GWaCEn2qdNNn80MVcWC06eWeGkHIgSUmlQ/viewform">Free 90 days replacement</a></h3>
                             <p>Your peace of mind is our priority—get a free replacement if the hire isn’t the right fit.</p>
-                            <div class="link"><a href="#">Learn More<i class="icon-7"></i></a></div>
+                            <div class="link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4PciQ2jQySvU9GWaCEn2qdNNn80MVcWC06eWeGkHIgSUmlQ/viewform">Learn More<i class="icon-7"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -256,9 +256,9 @@
                     <div class="chooseus-block-one">
                         <div class="inner-box">
                             <div class="icon-box"><i class="icon-6"></i></div>
-                            <h3><a href="#">Industry-Specific Experts</a></h3>
+                            <h3><a href="https://www.linkedin.com/company/spontooffshore">Industry-Specific Experts</a></h3>
                                 <p>Work with professionals who understand your industry, ensuring expertise from day one.</p>
-                            <div class="link"><a href="#">Learn More<i class="icon-7"></i></a></div>
+                            <div class="link"><a href="https://www.linkedin.com/company/spontooffshore">Learn More<i class="icon-7"></i></a></div>
                         </div>
                     </div>
                 </div>

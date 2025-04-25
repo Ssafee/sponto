@@ -104,13 +104,14 @@
                     <div class="top-inner">
                         <ul class="info">
                             <li>
-                                <img src="assets/images/icons/icon-6.png" alt="">
-                                 <a href="tel:(813) 957 9908">(813) 957 9908</a>
-                            </li>
-                            <li>
                                 <img src="assets/images/icons/icon-7.png" alt="">
                                  <a href="mailto:info@sponto.com">info@sponto.com</a>
                             </li>
+                            <li>
+                                <img src="assets/images/icons/icon-6.png" alt="">
+                                 <a href="tel:(813) 957 9908">(813) 957 9908</a>
+                            </li>
+                           
                         </ul>
                         <div class="right-column">
                             {{-- <div class="language-picker js-language-picker mr_30"
@@ -152,12 +153,31 @@
                             <nav class="main-menu navbar-expand-md navbar-light clearfix">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                    <li><a href="{{ route('job-seaker') }}">Job Seeker</a></li>
+                                    <li><a href="/">Home</a></li>
                                     <li><a href="{{ route('solution') }}">Solutions</a></li>
+
+                                    <li><a href="{{ route('job-seaker') }}">Job Seeker</a></li>
+                                    <li class="dropdown"><a href="#">Industries We Serve
+                                    </a>
+                                        <ul>
+                                            <li><a href="#">Marketing & Advertising</a></li>
+                                            <li><a href="#">Home Services</a></li>
+                                            <li><a href="#">Construction</a></li>
+                                            <li><a href="#">Real Estate</a></li>
+                                            <li><a href="#">Tech Firms</a></li>
+                                            <li><a href="#">E-commerce</a></li>
+                                            <li><a href="#">Finance & Accounting</a></li>
+                                        </ul>
+                                    </li> 
+                                  
+                                    <li class="dropdown"><a href="#">Legal</a>
+                                        <ul>
+                                            <li><a href="{{ route('terms-conditions') }}">Terms & Conditions</a></li>
+                                            <li><a href="{{ route('privacy-policy') }}">Privacy Policy</a></li>
+                                        </ul>
+                                    </li> 
                                     <li><a href="{{ route('contact_us') }}">Contact</a></li>
-                                    <li><a href="{{ route('terms-conditions') }}">Terms & Conditions</a></li>
-                                    <li><a href="{{ route('privacy-policy') }}">Privacy Policy</a></li>
-                                    
+
                                     
                                         {{--<li class=""><a href="{{ route('home') }}">Solutions</a>
 
@@ -298,11 +318,14 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="links-list clearfix">
-                                        <li><a href="#">Company</a></li>
-                                        <li><a href="#">Who are we</a></li>
-                                        <li><a href="https://sponto.co/job-seeker">Job Seeker</a></li>
-                                        <li><a href="https://sponto.co/solution">Solutions</a></li>
-                                        <li><a href="https://sponto.co/contact">Contact Us</a></li>
+                                        <li><a href="/">Home</a></li>
+                                    <li><a href="{{ route('solution') }}">Solutions</a></li>
+
+                                    <li><a href="{{ route('job-seaker') }}">Job Seeker</a></li>
+                                    
+                                            <li><a href="{{ route('terms-conditions') }}">Terms & Conditions</a></li>
+                                            <li><a href="{{ route('privacy-policy') }}">Privacy Policy</a></li>
+                                    <li><a href="{{ route('contact_us') }}">Contact</a></li>
 
                                     </ul>
                                 </div>

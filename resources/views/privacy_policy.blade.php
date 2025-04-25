@@ -16,12 +16,9 @@
         </section>
         <!-- page-title end -->
 
-        <section class="service-section centred pt_110 pb_90">
+        <section class="service-section centred pt_110 pb_90" style="text-align: left">
             <div class="auto-container">
-                <div class="sec-title pb_60 sec-title-animation animation-style2">
-                    <span class="sub-title mb_10 title-animation">Legal</span>
-                    <h2 class="title-animation">Privacy Policy</h2>
-                </div>
+               
                 <div class="row clearfix">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="content-box">
@@ -29,7 +26,9 @@
                             <strong>Company Name:</strong> Sponto LLC<br>
                             <strong>Location:</strong> Casper, Wyoming, USA<br>
                             <strong>Contact:</strong> <a href="mailto:compliance@sponto.co">compliance@sponto.co</a> | (813) 957-9908</p>
-        
+                                <br>
+                                <br>
+                                <br>
                             <ol>
                                 <li><strong>Who We Are</strong><br>
                                     Sponto LLC (“Sponto,” “we,” “us,” or “our”) is a remote staffing company that connects U.S. and Canadian businesses with vetted offshore talent. We operate primarily from the U.S. and serve clients in North America.

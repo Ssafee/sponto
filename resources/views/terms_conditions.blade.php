@@ -18,17 +18,13 @@
         <!-- page-title end -->
 
           <!-- service-section -->
-          <section class="service-section centred pt_110 pb_90">
+          <section class="service-section centred pt_110 pb_90" style="text-align: left">
             <div class="auto-container">
-                <div class="sec-title pb_60 sec-title-animation animation-style2">
-                    <span class="sub-title mb_10 title-animation">Legal</span>
-                    <h2 class="title-animation">Terms & Conditions</h2>
-                    <p class="mt-3"><strong>Effective Date:</strong> April 25, 2025</p>
-                </div>
+              
                 <div class="row clearfix">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
+                            <div class="inner-boxs">
                                 <div class="lower-content">
                                     <h4>1. Acceptance of Terms</h4>
                                     <p>By accessing or using any service offered by Sponto LLC, including submitting forms, communicating with our team, or engaging talent, you agree to be bound by these Terms & Conditions.</p>
