@@ -360,7 +360,7 @@
 		$('.clients-carousel').owlCarousel({
 			loop:true,
 			margin:20,
-			nav:true,
+			nav:false,
 			smartSpeed: 500,
 			autoplay: 1000,
 			navText: [ '<span class="icon-21"></span>', '<span class="icon-22"></span>' ],

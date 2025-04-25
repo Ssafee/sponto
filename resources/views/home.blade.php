@@ -188,11 +188,15 @@
       
     </div>
 </section>
+<style>
+    .clients-section .owl-dots{
+        display: none;
+    }
+</style>
 <!-- clients-section -->
         <section class="clients-section">
             <div class="auto-container">
-                    <h2 class="title-animation">Trusted by next-gen industry leaders</h2>
-                <div class="inner-container">
+                <div class="clients-carousel owl-carousel owl-theme owl-nav-none ">
                     <div class="clients-box">
                         <figure class="clients-logo"><a href="#"><img src="{{asset('assets/images/testomonial/1.png')}}" alt=""></a></figure>
                         <figure class="overlay-logo"><a href="#"><img src="{{asset('assets/images/testomonial/1.png')}}" alt=""></a></figure>

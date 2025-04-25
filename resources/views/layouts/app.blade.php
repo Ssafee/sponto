@@ -346,6 +346,8 @@
                                         <li><a href="#">Support Center</a></li>
                                         <li><a href="#">Privacy Policy</a></li>
                                         <li><a href="#">Terms &amp; Conditions</a></li> --}}
+                                        <li><a href="{{ route('terms-conditions') }}">Terms & Conditions</a></li>
+                                        <li><a href="{{ route('privacy-policy') }}">Privacy Policy</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -399,7 +401,7 @@
     <script src="{{ asset('assets/js/odometer.js') }}"></script>
 
     <!-- main-js -->
-    <script src="{{ asset('assets/js/script.js') }}"></script>
+    <script src="{{ asset('assets/js/script.js?v=1.1') }}"></script>
 
 </body><!-- End of .page_wrapper -->
 
