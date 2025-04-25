@@ -7,7 +7,7 @@
                 <div class="content-box">
                     <h1>Job Openings</h1>
                     <ul class="bread-crumb clearfix">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>-</li>
                         <li>Job Openings</li>
                     </ul>

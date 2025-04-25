@@ -7,8 +7,8 @@
         <div class="content-box">
             <h1>Contact us</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
-                <li>-</li>
+                <li><a href="/">Home</a></li>
+                        <li>-</li>
                 <li>Contact us</li>
             </ul>
         </div>
