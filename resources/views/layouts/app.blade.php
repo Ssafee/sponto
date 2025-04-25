@@ -152,7 +152,12 @@
                             <nav class="main-menu navbar-expand-md navbar-light clearfix">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        {{--<li class=""><a href="{{ route('home') }}">Home</a>
+                                    <li><a href="{{ route('job-seaker') }}">Job Seeker</a></li>
+                                    <li><a href="{{ route('solution') }}">Solutions</a></li>
+                                    <li><a href="{{ route('contact_us') }}">Contact</a></li>
+                                    
+                                    
+                                        {{--<li class=""><a href="{{ route('home') }}">Solutions</a>
 
                                         </li>
                                          <li><a href="{{ route('about') }}">About</a></li>

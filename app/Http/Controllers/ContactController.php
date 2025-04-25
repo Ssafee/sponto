@@ -29,7 +29,7 @@ class ContactController extends Controller
         ];
 
         // Send email
-        Mail::to('sales@sponto.co')->send(new ContactMail($contactData));
+        Mail::to('mustafa@sponto.co')->send(new ContactMail($contactData));
 
         // Redirect with success message
         return back()->with('success', 'Your message has been sent successfully!');
