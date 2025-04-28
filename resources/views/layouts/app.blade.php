@@ -14,7 +14,7 @@
         <meta property="og:description" content="Sponto helps companies grow by connecting them with top offshore talent — including sales, marketing, creative, and admin experts — at affordable rates. Scale smarter with Sponto.">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://sponto.co/"> <!-- Replace with your actual URL -->
-        <meta property="og:image" content="https://sponto.co/assets/images/ogsponto.png"> <!-- Replace with your image URL -->
+        <meta property="og:image" content="https://sponto.co/assets/images/ogsponto.jpg"> <!-- Replace with your image URL -->
     
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
