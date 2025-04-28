@@ -63,6 +63,7 @@
                                         <li>Improve our internal processes and services</li>
                                     </ul>
                                     We may contact you using automated systems (including SMS or calls) where permitted. You may reply STOP to unsubscribe from SMS.
+                                    That messaging frequency may vary.
                                 </li>
                                 <li><strong>A2P Messaging & Consent</strong><br>
                                     By submitting any of our forms, you consent to receive communications from Sponto related to your hiring needs. This includes:
