@@ -70,6 +70,7 @@
     <link href="{{asset('assets/css/module-css/testimonial.css')}}" rel="stylesheet">   
     <link href="{{asset('assets/css/module-css/job.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/module-css/service.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/module-css/service-details.css')}}" rel="stylesheet">
 
 </head>
 
@@ -179,13 +180,14 @@
                                     <li class="dropdown"><a href="#">Industries We Serve
                                     </a>
                                         <ul>
-                                            <li><a href="#">Marketing & Advertising</a></li>
-                                            <li><a href="#">Home Services</a></li>
-                                            <li><a href="#">Construction</a></li>
-                                            <li><a href="#">Real Estate</a></li>
-                                            <li><a href="#">Tech Firms</a></li>
-                                            <li><a href="#">E-commerce</a></li>
-                                            <li><a href="#">Finance & Accounting</a></li>
+                                            <li><a href="/saas-firms">SaaS Firms</a></li>
+                                            <li><a href="/marketing-agancy">Marketing Agency</a></li>
+                                            <li><a href="/pharmaceutical">Pharmaceutical</a></li>
+                                            <li><a href="/real-estate">Real State </a></li>
+                                            <li><a href="/logistics">Logsitics Firm</a></li>
+                                            <li><a href="/Accounting-&-Finance" >Accounting & Finance</a></li>
+                                            <li><a href="Ecommerce">Ecommerce</a></li>
+                                            <li><a href="home-services" >Home Services</a></li>
                                         </ul>
                                     </li> 
                                   
@@ -358,13 +360,14 @@
                                 <div class="widget-content">
                                     <ul class="links-list clearfix">
                                         {{-- <li><a href="#">Specialized Industries</a></li> --}}
-                                        <li><a href="#">Marketing & Advertising</a></li>
-                                        <li><a href="#">Home Services</a></li>
-                                        <li><a href="#">Construction</a></li>
-                                        <li><a href="#">Real Estate</a></li>
-                                        <li><a href="#">Tech Firms</a></li>
-                                        <li><a href="#">E-commerce</a></li>
-                                        <li><a href="#">Finance & Accounting</a></li>
+                                        <li><a href="/saas-firms">SaaS Firms</a></li>
+                                        <li><a href="/marketing-agancy">Marketing Agency</a></li>
+                                        <li><a href="/pharmaceutical">Pharmaceutical</a></li>
+                                        <li><a href="/real-estate">Real State </a></li>
+                                        <li><a href="/logistics">Logsitics Firm</a></li>
+                                        <li><a href="/Accounting-&-Finance" >Accounting & Finance</a></li>
+                                        <li><a href="Ecommerce">Ecommerce</a></li>
+                                        <li><a href="home-services" >Home Services</a></li>
 
 
                                     </ul>

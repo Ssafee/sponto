@@ -37,5 +37,42 @@ class HomeController extends Controller
     {
         return view('terms_conditions');
     }
-    
+    public function saas_firm()
+    {
+        return view('saasFirm');
+    }
+
+    public function marketing_agancy()
+    {
+        return view('markiting_agancy');
+    }
+
+    public function pharmaceutical()
+    {
+        return view('pharmaceutical');
+    }
+
+    public function real_estate()
+    {
+        return view('real_estate');
+    }
+
+    public function logistics()
+    {
+        return view('Logistics');
+    }
+
+    public function Accounting_Finance()
+    {
+        return view('Accounting&Finance');
+    }
+
+    public function Ecommcer()
+    {
+        return view('Ecommcer');
+    }
+    public function home_services()
+    {
+        return view('home_services');
+    }
 }

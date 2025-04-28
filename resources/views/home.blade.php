@@ -291,7 +291,9 @@
             <span class="sub-title mb_10 title-animation">Industries</span>
             <h2 class="title-animation">Industries Served</h2>
         </div>
-        <div class="inner-container clearfix">
+
+        
+        {{-- <div class="inner-container clearfix">
             <div class="industries-block-one">
                 <div class="inner-box">
                     <div class="icon-box"><img src="{{asset('assets\images\icons\E Commerce.png')}}" alt=""></div>
@@ -340,8 +342,58 @@
                     <h3><a href="#">Real Estate</a></h3>
                 </div>
             </div>
+        </div> --}}
+        <div class="inner-container clearfix">
+            <div class="industries-block-one">
+                <div class="inner-box">
+                    <div class="icon-box"><img src="{{ asset('assets/images/icons/E Commerce.png') }}" alt=""></div>
+                    <h3><a href="/Ecommerce">Ecommerce</a></h3>
+                </div>
+            </div>
+            <div class="industries-block-one">
+                <div class="inner-box">
+                    <div class="icon-box"><img src="{{ asset('assets/images/icons/Marketing Agency.png') }}" alt=""></div>
+                    <h3><a href="/marketing-agancy">Marketing Agency</a></h3>
+                </div>
+            </div>
+            <div class="industries-block-one">
+                <div class="inner-box">
+                    <div class="icon-box"><img src="{{ asset('assets/images/icons/SaaS.png') }}" alt=""></div>
+                    <h3><a href="/saas-firms">SaaS Firms</a></h3>
+                </div>
+            </div>
+            <div class="industries-block-one">
+                <div class="inner-box">
+                    <div class="icon-box"><img src="{{ asset('assets/images/icons/Finance & Accounting firm.png') }}" alt=""></div>
+                    <h3><a href="/Accounting-&-Finance">Accounting & Finance</a></h3>
+                </div>
+            </div>
+            <div class="industries-block-one">
+                <div class="inner-box">
+                    <div class="icon-box"><img src="{{ asset('assets/images/icons/Pharmaceutical.png') }}" alt=""></div>
+                    <h3><a href="/pharmaceutical">Pharmaceutical</a></h3>
+                </div>
+            </div>
+            <div class="industries-block-one">
+                <div class="inner-box">
+                    <div class="icon-box"><img src="{{ asset('assets/images/icons/Home Services_.png') }}" alt=""></div>
+                    <h3><a href="/home-services">Home Services</a></h3>
+                </div>
+            </div>
+            <div class="industries-block-one">
+                <div class="inner-box">
+                    <div class="icon-box"><img src="{{ asset('assets/images/icons/Logistics Firm.png') }}" alt=""></div>
+                    <h3><a href="/logistics">Logistics Firm</a></h3>
+                </div>
+            </div>
+            <div class="industries-block-one">
+                <div class="inner-box">
+                    <div class="icon-box"><img src="{{ asset('assets/images/icons/Real Estate.png') }}" alt=""></div>
+                    <h3><a href="/real-estate">Real Estate</a></h3>
+                </div>
+            </div>
         </div>
-
+        
     </div>
 </section>
 <!-- industries-section end -->
