@@ -6,18 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-        <title>Sponto LLC | Hire Vetted Remote Talent for Your Business</title>
-        <meta name="description" content="Sponto helps companies grow by connecting them with top offshore talent — including sales, marketing, creative, and admin experts — at affordable rates. Scale smarter with Sponto.">
-        
-        <!-- Open Graph / Facebook -->
-        <meta property="og:title" content="Sponto LLC | Hire Vetted Remote Talent for Your Business">
-        <meta property="og:description" content="Sponto helps companies grow by connecting them with top offshore talent — including sales, marketing, creative, and admin experts — at affordable rates. Scale smarter with Sponto.">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://sponto.co/"> <!-- Replace with your actual URL -->
-        <meta property="og:image" content="https://sponto.co/assets/images/ogsponto.jpg"> <!-- Replace with your image URL -->
-    
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponto LLC | Hire Vetted Remote Talent for Your Business</title>
+    <meta name="description" content="Sponto helps companies grow by connecting them with top offshore talent — including sales, marketing, creative, and admin experts — at affordable rates. Scale smarter with Sponto.">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Sponto LLC | Hire Vetted Remote Talent for Your Business">
+    <meta property="og:description" content="Sponto helps companies grow by connecting them with top offshore talent — including sales, marketing, creative, and admin experts — at affordable rates. Scale smarter with Sponto.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sponto.co/">
+    <meta property="og:image" content="https://sponto.co/assets/images/ogiamge.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sponto LLC | Hire Vetted Remote Talent for Your Business">
+    <meta name="twitter:description" content="Sponto helps companies grow by connecting them with top offshore talent — including sales, marketing, creative, and admin experts — at affordable rates. Scale smarter with Sponto.">
+    <meta name="twitter:image" content="https://sponto.co/assets/images/ogiamge.jpg">
+    <meta name="twitter:url" content="https://sponto.co/">
+    <!-- (Optional) If you have a Twitter handle, you can also add: -->
     
     <!-- Fav Icon -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
