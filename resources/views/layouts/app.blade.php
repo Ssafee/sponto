@@ -363,7 +363,7 @@
                                         <li><a href="/saas-firms">SaaS Firms</a></li>
                                         <li><a href="/marketing-agancy">Marketing Agency</a></li>
                                         <li><a href="/pharmaceutical">Pharmaceutical</a></li>
-                                        <li><a href="/real-estate">Real State </a></li>
+                                        <li><a href="/real-estate">Real Estate </a></li>
                                         <li><a href="/logistics">Logsitics Firm</a></li>
                                         <li><a href="/Accounting-&-Finance" >Accounting & Finance</a></li>
                                         <li><a href="Ecommerce">Ecommerce</a></li>

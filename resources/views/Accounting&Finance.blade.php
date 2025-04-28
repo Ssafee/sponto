@@ -28,7 +28,7 @@
                                     <li><a href="/saas-firms">SaaS Firms<i class="icon-42"></i></a></li>
                                     <li><a href="/marketing-agancy">Marketing Agency<i class="icon-42"></i></a></li>
                                     <li><a href="/pharmaceutical">Pharmaceutical<i class="icon-42"></i></a></li>
-                                    <li><a href="/real-estate">Real State <i class="icon-42"></i></a></li>
+                                    <li><a href="/real-estate">Real Estate <i class="icon-42"></i></a></li>
                                     <li><a href="/logistics">Logsitics Firm<i class="icon-42"></i></a></li>
                                     <li><a href="/Accounting-&-Finance" class="current">Accounting & Finance<i class="icon-42"></i></a></li>
                                     <li><a href="Ecommerce">Ecommerce<i class="icon-42"></i></a></li>
