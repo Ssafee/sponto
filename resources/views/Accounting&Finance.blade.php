@@ -54,7 +54,7 @@
                                 <p class="mt_20">Financial management is the backbone of any business, ensuring compliance, profitability, and long-term growth. Businesses need skilled professionals to handle bookkeeping, audits, and financial forecasting efficiently.</p>
                             </div>
                             <figure class="image-box mb_30"><img src="assets/images/Financial.png" alt=""></figure>
-                            <div class="text-box mb_110">
+                            <div class="text-box mb_50">
                                 <h2>Challenges Accounting & Finance Firms Face</h2>
                                 <p>1. Managing tax compliance across different regions</p>
                                 <p>2. Handling high volumes of financial data efficiently</p>

@@ -54,7 +54,7 @@
                                 <p class="mt_20">E-commerce is booming, and businesses must handle orders, optimize ads, and manage customer queries effectively.</p>
                             </div>
                             <figure class="image-box mb_30"><img src="assets/images/commerce.png" alt=""></figure>
-                            <div class="text-box mb_110">
+                            <div class="text-box mb_50">
                                 <h2>Challenges Ecommerce Companies Face</h2>
                                 <p>1. High cart abandonment rates</p>
                                 <p>2. Inefficient order fulfillment</p>

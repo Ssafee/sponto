@@ -54,7 +54,7 @@
                                 <p class="mt_20">The pharmaceutical industry is highly regulated and requires precision in compliance, sales, and research. Companies need expert teams to handle regulatory approvals, sales outreach, and clinical trials efficiently.</p>
                             </div>
                             <figure class="image-box mb_30"><img src="assets/images/pharmaceutical.png" alt=""></figure>
-                            <div class="text-box mb_110">
+                            <div class="text-box mb_50">
                                 <h2>Challenges Pharma Companies Face</h2>
                                 <p>1. Struggling to meet strict regulatory requirements</p>
                                 <p>2. Limited access to highly specialized talent</p>

@@ -54,7 +54,7 @@
                                 <p class="mt_20">Marketing agencies need creativity, strategy, and execution to succeed. However, keeping up with trends, optimizing campaigns, and delivering results for clients require a strong, skilled team.</p>
                             </div>
                             <figure class="image-box mb_30"><img src="assets/images/marketing.png" alt=""></figure>
-                            <div class="text-box mb_110">
+                            <div class="text-box mb_50">
                                 <h2>Challenges Marketing Agencies Face</h2>
                                 <p>1. High workload with limited creative resources</p>
                                 <p>2. Managing multiple client campaigns simultaneously</p>

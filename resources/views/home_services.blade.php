@@ -54,7 +54,7 @@
                                 <p class="mt_20">From plumbing to cleaning, Home Services businesses rely on efficient customer services , appointment scheduling ,and marketing to grow.</p>
                             </div>
                             <figure class="image-box mb_30"><img src="assets/images/home.png" alt=""></figure>
-                            <div class="text-box mb_110">
+                            <div class="text-box mb_50">
                                 <h2>Challenges Pharma Companies Face</h2>
                                 <p>1. Managing high volumes of customer inquiries</p>
                                 <p>2. Inefficient scheduling leading to missed appointment</p>

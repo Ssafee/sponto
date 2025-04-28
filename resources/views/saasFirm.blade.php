@@ -54,7 +54,7 @@
                                 <p class="mt_20">SaaS companies thrive in a fast-paced digital world, where success depends on customer acquisition, retention, and innovation. To stay ahead, they need seamless onboarding, proactive support, and strong lead generation.</p>
                             </div>
                             <figure class="image-box mb_30"><img src="assets/images/saas.png" alt=""></figure>
-                            <div class="text-box mb_110">
+                            <div class="text-box mb_50">
                                 <h2>Challenges SaaS Companies Face</h2>
                                 <p>1. High churn rates due to poor onboarding</p>
                                 <p>2. Lack of effective lead generation and sales strategies</p>

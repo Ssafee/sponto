@@ -54,7 +54,7 @@
                                 <p class="mt_20">Real estate is all about connections, responsiveness, and marketing. Successful agents need strong backend support to close deals faster.</p>
                             </div>
                             <figure class="image-box mb_30"><img src="assets/images/rstate.png" alt=""></figure>
-                            <div class="text-box mb_110">
+                            <div class="text-box mb_50">
                                 <h2>Challenges Real Estate Businesses Face</h2>
                                 <p>1. Lead qualification delays</p>
                                 <p>2. Inefficient property management</p>

@@ -54,7 +54,7 @@
                                 <p class="mt_20">Logistics businesses rely on efficiency, accuracy, and strong coordination to meet customer demands.</p>
                             </div>
                             <figure class="image-box mb_30"><img src="assets/images/Logistics.png" alt=""></figure>
-                            <div class="text-box mb_110">
+                            <div class="text-box mb_50">
                                 <h2>Challenges Logistics Companies Face</h2>
                                 <p>1. Inefficient supply chain management</p>
                                 <p>2. High shipping delays due to poor coordination</p>
