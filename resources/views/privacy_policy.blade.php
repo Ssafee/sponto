@@ -42,7 +42,7 @@
                                         <br>
                                         <br>
                                         <br>
-                                    <ol>
+                                    <ol style="padding:0px">
                                         <li><strong>Who We Are</strong><br>
                                             Sponto LLC (“Sponto,” “we,” “us,” or “our”) is a remote staffing company that connects U.S. and Canadian businesses with vetted offshore talent. We operate primarily from the U.S. and serve clients in North America.
                                         </li>
