@@ -70,7 +70,7 @@
     <link href="{{asset('assets/css/module-css/testimonial.css')}}" rel="stylesheet">   
     <link href="{{asset('assets/css/module-css/job.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/module-css/service.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/css/module-css/service-details.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/module-css/service-details.css?v=1.1')}}" rel="stylesheet">
 
 </head>
 

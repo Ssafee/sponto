@@ -144,7 +144,7 @@
 .service-details-content .tabs-box .tab-btns li{
   position: relative;
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   font-family: var(--title-font);
   font-weight: 600;
@@ -152,7 +152,7 @@
   border: 1px solid #E5E5E5;
   border-radius: 10px;
   cursor: pointer;
-  padding: 50px 22px 30px 20px;
+  padding: 30px 22px 30px 20px;
   margin-left: 15px;
   transition: all 500ms ease;
 }
