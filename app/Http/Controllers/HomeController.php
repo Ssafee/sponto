@@ -49,7 +49,7 @@ class HomeController extends Controller
 
     public function pharmaceutical()
     {
-        return view('pharmaceutical');
+        return view('Pharmaceutical');
     }
 
     public function real_estate()
