@@ -52,7 +52,7 @@
     <link href="{{ asset('assets/css/module-css/banner.css?v=1.3') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/clients.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/about.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/module-css/funfact.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/funfact.css?v=1.1') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/chooseus.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/category.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/industries.css?v=1.3') }}" rel="stylesheet">
