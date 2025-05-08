@@ -99,7 +99,7 @@
         <div class="tabs-box">
             <ul class="tab-btns tab-buttons">
                 <li class="tab-btn active-btn" data-tab="#tab-1"><i class="far fa-briefcase"></i>For Business</li>
-                <li class="tab-btn" data-tab="#tab-2"><i class="far fa-user"></i>For Talents</li>
+                <li class="tab-btn" data-tab="#tab-2"><i class="far fa-user"></i>For Talent</li>
             </ul>
             <div class="tabs-content">
                 <div class="tab active-tab" id="tab-1">
@@ -343,7 +343,7 @@
                 </div>
             </div>
         </div> --}}
-        <div class="inner-container clearfix">
+        <div class="inner-container clearfix text-center">
             <div class="industries-block-one">
                 <div class="inner-box">
                     <div class="icon-box"><img src="{{ asset('assets/images/icons/E Commerce.png') }}" alt=""></div>
@@ -466,7 +466,7 @@
                 <div class="industries-block-three">
                     <div class="inner-box">
                         <div class="icon-box"><img src="{{asset('assets\images\icons\SEO.png')}}" alt=""></div>
-                        <h3><a href="#">SEO Specialist</a></h3>
+                        <h3><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4PciQ2jQySvU9GWaCEn2qdNNn80MVcWC06eWeGkHIgSUmlQ/viewform">SEO Specialist</a></h3>
                         <p>2256 Experts available</p>
                     </div>
                 </div>
@@ -502,7 +502,7 @@
                 <div class="industries-block-three">
                     <div class="inner-box">
                         <div class="icon-box"><img src="{{asset('assets\images\icons\Developer.png')}}" alt=""></div>
-                        <h3><a href="#">Developers</a></h3>
+                        <h3><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4PciQ2jQySvU9GWaCEn2qdNNn80MVcWC06eWeGkHIgSUmlQ/viewform">Developers</a></h3>
                         <p>2984 Experts available</p>
                     </div>
                 </div>
