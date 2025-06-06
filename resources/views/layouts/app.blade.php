@@ -72,6 +72,14 @@
     <link href="{{asset('assets/css/module-css/service.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/module-css/service-details.css?v=1.1')}}" rel="stylesheet">
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HY4MJCPK6J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HY4MJCPK6J');
+</script>
 </head>
 
 

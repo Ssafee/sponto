@@ -1,0 +1,688 @@
+{
+	"info": {
+		"_postman_id": "cca54884-5e6b-4c54-97e8-936c5cec0a79",
+		"name": "MasterCard APIs - Prod",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15678002"
+	},
+	"item": [
+		{
+			"name": "EcommerceAllowDisallow",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Msisdn",
+						"value": "03014694111",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-ID",
+						"value": "626975e608069fa687a482edfba30452",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-Secret",
+						"value": "4cb579a91ce8276047e088329c09925e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"enableDisable\": \"1\",\r\n    \"formFactorType\": \"CRD\",\r\n    \"formFactor\": \"5591770000000028\",\r\n    \"actDuration\": \"H\",\r\n    \"activationForHours\": \"1\",\r\n    \"vip\": \"N\",\r\n    \"productType\": \"D\",\r\n    \"mw_transactionId\": \"\",\r\n    \"mw_param1\": \"\",\r\n    \"mw_param2\": \"\",\r\n    \"mw_param3\": \"\",\r\n    \"accountHolder\": {\r\n        \"mw_accountHolderMsisdn\": \"\",\r\n        \"mw_toEmail\": \"\"\r\n    },\r\n    \"supplementary\": {\r\n        \"mw_supplementaryMsisdn\": \"\",\r\n        \"mw_toEmail\": \"\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-gw-test.jazzcash.com.pk/jazzcash/rest/api/v1/pts/Link",
+					"protocol": "https",
+					"host": [
+						"api-gw-test",
+						"jazzcash",
+						"com",
+						"pk"
+					],
+					"path": [
+						"jazzcash",
+						"rest",
+						"api",
+						"v1",
+						"pts",
+						"Link"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Link Wallet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Msisdn",
+						"value": "03014694111",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-ID",
+						"value": "1e3b8f9de70d67dca0a5b59e1ee3507e",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-Secret",
+						"value": "27148478425bce8a2f44cf4fc72365f2",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "// {\r\n//     \"delinkingStatus\": \"Y\",\r\n//     \"accountType\": \"10\",\r\n//     \"channel\": \"31\",\r\n//     \"transactionCode\": \"411\",\r\n//     \"deviceNumber\": \"5591772420000026\",\r\n//     \"defaultWallet\": \"Y\",\r\n//     \"walletNumber\": \"00000010233\",\r\n//     \"newDefaultWallet\": \"03369883773\"\r\n// }\r\n\r\n{\r\n    \"delinkingStatus\": \"Y\",\r\n    \"accountType\": \"10\",\r\n    \"channel\": \"31\",\r\n    \"transactionCode\": \"411\",\r\n    \"deviceNumber\": \"5591772456415908\",\r\n    \"defaultWallet\": \"Y\",\r\n    \"walletNumber\": \"00000010229\",\r\n    \"newDefaultWallet\": \"03402750084\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-gw.jazzcash.com.pk/jazzcash/pts/api/v1/pts/Link",
+					"protocol": "https",
+					"host": [
+						"api-gw",
+						"jazzcash",
+						"com",
+						"pk"
+					],
+					"path": [
+						"jazzcash",
+						"pts",
+						"api",
+						"v1",
+						"pts",
+						"Link"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delink Wallet",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Msisdn",
+						"value": "03014694111"
+					},
+					{
+						"key": "X-Client-ID",
+						"value": "1e3b8f9de70d67dca0a5b59e1ee3507e"
+					},
+					{
+						"key": "X-Client-Secret",
+						"value": "27148478425bce8a2f44cf4fc72365f2"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"delinkingStatus\": \"Y\",\r\n// \"linkingStatus\": \"N\",\r\n\"accountType\": \"20\",\r\n\"channel\": \"31\",\r\n\"transactionCode\": \"222\",\r\n\"deviceNumber\": \"5591772392875215\",\r\n\"defaultWallet\": \"N\",\r\n\"walletNumber\": \"03080330686\",\r\n\"newDefaultWallet\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-gw.jazzcash.com.pk/jazzcash/pts/api/v1/pts/Delink",
+					"protocol": "https",
+					"host": [
+						"api-gw",
+						"jazzcash",
+						"com",
+						"pk"
+					],
+					"path": [
+						"jazzcash",
+						"pts",
+						"api",
+						"v1",
+						"pts",
+						"Delink"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Debit Customer Boarding QRVCN",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-ID",
+						"value": "1e3b8f9de70d67dca0a5b59e1ee3507e",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-Secret",
+						"value": "27148478425bce8a2f44cf4fc72365f2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"requestType\": \"1\",\n    \"issueExistingDevice\": {\n        \"deviceNumber\": \"\",\n        \"cardPackId\": \"\"\n    },\n    \"customerType\": \"0\",\n    \"programCode\": \"JCR001\",\n    \"existingDeviceNumber\": \"\",\n    \"existingAddOnClientCode\": \"\",\n    \"walletPlan1Promo\": \"\",\n    \"devicePlanCode1\": \"RDP03\",\n    \"devicePlanPromoCode1\": \"\",\n    \"devicePhotoIndicator1\": \"0\",\n    \"devicePlanCode2\": \"\",\n    \"devicePlanPromoCode2\": \"\",\n    \"devicePhotoIndicator2\": \"\",\n    \"devicePlanCode3\": \"\",\n    \"devicePlanPromoCode3\": \"\",\n    \"devicePhotoIndicator3\": \"\",\n    \"devicePlanCode4\": \"\",\n    \"devicePlanPromoCode4\": \"\",\n    \"devicePhotoIndicator4\": \"\",\n    \"devicePlanCode5\": \"\",\n    \"devicePlanPromoCode5\": \"\",\n    \"devicePhotoIndicator5\": \"\",\n    \"devicePlanCode6\": \"\",\n    \"devicePlanPromoCode6\": \"\",\n    \"devicePhotoIndicator6\": \"\",\n    \"branchCode\": \"000003\",\n    \"corporateClientCode\": \"\",\n    \"profile\": {\n        \"title\": \"1\",\n        \"firstName\": \"MINAB\",\n        \"middleName1\": \"\",\n        \"middleName2\": \"\",\n        \"lastName\": \"IMRAN\",\n        \"maidenName\": \"\",\n        \"maritalStatus\": \"0\",\n        \"gender\": \"F\",\n        \"nationalityCode\": \"586\",\n        \"birthDate\": \"19860807\",\n        \"birthCountry\": \"\",\n        \"birthCity\": \"\",\n        \"vipFlag\": \"\",\n        \"education\": \"\",\n        \"languagePreference\": \"en\",\n        \"embossedName\": \"MINAB IMRAN\",\n        \"encodedName\": \"\"\n    },\n    \"addonProfile\": {\n        \"addonTitle\": \"\",\n        \"addonFirstName\": \"\",\n        \"addonMiddleName\": \"\",\n        \"addonLastName\": \"\",\n        \"addonMaidenName\": \"\",\n        \"addonEmbossedName\": \"\",\n        \"addonAlternateName\": \"\",\n        \"addonGender\": \"\",\n        \"addonRelation\": \"\",\n        \"addonBirthDate\": \"\",\n        \"addonBirthCountry\": \"\",\n        \"addonBirthCity\": \"\",\n        \"addonEmailId\": \"\",\n        \"addonMobileISDCode\": \"\",\n        \"addonMobileNumber\": \"\",\n        \"addonPhotoIndicator\": \"\",\n        \"addonphotoCode\": \"\",\n        \"addonpictureCode\": \"\"\n    },\n    \"pictureCode\": \"\",\n    \"photoCode\": \"\",\n    \"contactInfo\": {\n        \"registeredEmailId\": \"DUMMY@MAIL.COM\",\n        \"regMobileISDNCode\": \"+92\",\n        \"registeredMobileNumber\": \"3214001251\",\n        \"faxNumber\": \"\",\n        \"registerForDNCR\": \"N\",\n        \"smsAlert\": \"Y\",\n        \"emailAlert\": \"Y\",\n        \"statementCopyMode\": \"\",\n        \"preferredMailingAddress\": \"P\"\n    },\n    \"deliveryMode\": \"0\",\n    \"deliveryFlag\": \"1\",\n    \"deliveryDate\": \"20042023\",\n    \"accountNumber\": \"03214001251\",\n    \"accountCurrency\": \"586\",\n    \"accountType\": \"20\",\n    \"cBSClientID\": \"03214001251\",\n    \"currentAddress\": {\n        \"currentAddress1\": \"Karachi Pakistan\",\n        \"currentAddress2\": \"\",\n        \"currentAddress3\": \"\",\n        \"currentAddress4\": \"\",\n        \"currentCountry\": \"586\",\n        \"currentState\": \"\",\n        \"currentCity\": \"\",\n        \"currentZipCode\": \"\",\n        \"currentContactNo1\": \"\",\n        \"currentContactNo2\": \"\"\n    },\n    \"lodgingMode\": \"\",\n    \"permanentAddress\": {\n        \"permanentAddress1\": \"Karachi Pakistan\",\n        \"permanentAddress2\": \"\",\n        \"permanentAddress3\": \"\",\n        \"permanentAddress4\": \"\",\n        \"permanentCountry\": \"586\",\n        \"permanentState\": \"\",\n        \"permanentCity\": \"\",\n        \"permanentZipCode\": \"\",\n        \"permanentContactNo1\": \"\",\n        \"permanentContactNo2\": \"\"\n    },\n    \"permanentAddressFrom\": \"\",\n    \"officeAddress\": {\n        \"officeAddress1\": \"\",\n        \"officeAddress2\": \"\",\n        \"officeAddress3\": \"\",\n        \"officeAddress4\": \"\",\n        \"officeCountry\": \"\",\n        \"officeState\": \"\",\n        \"officeCity\": \"\",\n        \"officeZipCode\": \"\",\n        \"officeContactNo1\": \"\",\n        \"officeContactNo2\": \"\",\n        \"officeExt\": \"\",\n        \"officeMobileISDN\": \"\",\n        \"officeMobNo\": \"\",\n        \"officeEmailID\": \"\"\n    },\n    \"occupation\": {\n        \"employmentStatus\": \"\",\n        \"employeeID\": \"\",\n        \"employerName\": \"\",\n        \"employerType\": \"\",\n        \"designation\": \"\",\n        \"department\": \"\",\n        \"occupationType\": \"\",\n        \"jobTenureYear\": \"\",\n        \"joiningDate\": \"\"\n    },\n    \"legalDocuments\": {\n        \"legalIdType1\": \"02\",\n        \"legalId1\": \"3310017713770\",\n        \"legalID1PlaceOfIssuance\": \"\",\n        \"legalID1ExpiryDate\": \"\",\n        \"legalIdType2\": \"\",\n        \"legalId2\": \"\",\n        \"legalID2PlaceOfIssuance\": \"\",\n        \"legalID2ExpiryDate\": \"\",\n        \"legalIdType3\": \"\",\n        \"legalId3\": \"\",\n        \"legalID3PlaceOfIssuance\": \"\",\n        \"legalID3ExpiryDate\": \"\",\n        \"legalIdType4\": \"\",\n        \"legalId4\": \"\",\n        \"legalID4PlaceOfIssuance\": \"\",\n        \"legalID4ExpiryDate\": \"\"\n    },\n    \"clientExtraFields\": {\n        \"clientDateField1\": \"\",\n        \"clientDateField2\": \"\",\n        \"clientDateField3\": \"\",\n        \"clientDateField4\": \"\",\n        \"clientDateField5\": \"\",\n        \"clientDataField1\": \"\",\n        \"clientDataField2\": \"\",\n        \"clientDataField3\": \"\",\n        \"clientDataField4\": \"\",\n        \"clientDataField5\": \"\",\n        \"clientAmountField1\": \"\",\n        \"clientAmountField2\": \"\",\n        \"clientAmountField3\": \"\",\n        \"clientAmountField4\": \"\",\n        \"clientAmountField5\": \"\"\n    },\n    \"walletExtraFields\": {\n        \"walletDateField1\": \"\",\n        \"walletDateField2\": \"\",\n        \"walletDateField3\": \"\",\n        \"walletDateField4\": \"\",\n        \"walletDateField5\": \"\",\n        \"walletDataField1\": \"\",\n        \"walletDataField2\": \"\",\n        \"walletDataField3\": \"\",\n        \"walletDataField4\": \"\",\n        \"walletDataField5\": \"\",\n        \"walletAmountField1\": \"\",\n        \"walletAmountField2\": \"\",\n        \"walletAmountField3\": \"\",\n        \"walletAmountField4\": \"\",\n        \"walletAmountField5\": \"\"\n    },\n    \"deviceExtraFields\": {\n        \"deviceDateField1\": \"\",\n        \"deviceDateField2\": \"\",\n        \"deviceDateField3\": \"\",\n        \"deviceDateField4\": \"\",\n        \"deviceDateField5\": \"\",\n        \"deviceDataField1\": \"\",\n        \"deviceDataField2\": \"\",\n        \"deviceDataField3\": \"\",\n        \"deviceDataField4\": \"\",\n        \"deviceDataField5\": \"\",\n        \"deviceAmountField1\": \"\",\n        \"deviceAmountField2\": \"\",\n        \"deviceAmountField3\": \"\",\n        \"deviceAmountField4\": \"\",\n        \"deviceAmountField5\": \"\"\n    },\n    \"instantCardFlag\": \"N\",\n    \"numberlessCardFlag\": \"\",\n    \"perTransactionLimit\": \"\",\n    \"velocity\": \"\",\n    \"totalTransactionLimit\": \"\",\n    \"expiryDate\": \"\",\n    \"timestamp\": \"1681985254855\"\n}"
+				},
+				"url": {
+					"raw": "https://api-gw.jazzcash.com.pk/jazzcash/pts/api/v1/pts/DebitCustomerBoarding",
+					"protocol": "https",
+					"host": [
+						"api-gw",
+						"jazzcash",
+						"com",
+						"pk"
+					],
+					"path": [
+						"jazzcash",
+						"pts",
+						"api",
+						"v1",
+						"pts",
+						"DebitCustomerBoarding"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Debit Customer Boarding QRVCN Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-ID",
+						"value": "1e3b8f9de70d67dca0a5b59e1ee3507e",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-Secret",
+						"value": "27148478425bce8a2f44cf4fc72365f2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"requestType\": \"1\",\n    \"issueExistingDevice\": {\n        \"deviceNumber\": \"\",\n        \"cardPackId\": \"\"\n    },\n    \"customerType\": \"0\",\n    \"programCode\": \"JCC002\",\n    \"existingDeviceNumber\": \"\",\n    \"existingAddOnClientCode\": \"\",\n    \"walletPlan1Promo\": \"\",\n    \"devicePlanCode1\": \"CDP03\",\n    \"devicePlanPromoCode1\": \"\",\n    \"devicePhotoIndicator1\": \"0\",\n    \"devicePlanCode2\": \"\",\n    \"devicePlanPromoCode2\": \"\",\n    \"devicePhotoIndicator2\": \"\",\n    \"devicePlanCode3\": \"\",\n    \"devicePlanPromoCode3\": \"\",\n    \"devicePhotoIndicator3\": \"\",\n    \"devicePlanCode4\": \"\",\n    \"devicePlanPromoCode4\": \"\",\n    \"devicePhotoIndicator4\": \"\",\n    \"devicePlanCode5\": \"\",\n    \"devicePlanPromoCode5\": \"\",\n    \"devicePhotoIndicator5\": \"\",\n    \"devicePlanCode6\": \"\",\n    \"devicePlanPromoCode6\": \"\",\n    \"devicePhotoIndicator6\": \"\",\n    \"branchCode\": \"000003\",\n    \"corporateClientCode\": \"\",\n    \"profile\": {\n        \"title\": \"1\",\n        \"firstName\": \"KAINAT\",\n        \"middleName1\": \"\",\n        \"middleName2\": \"\",\n        \"lastName\": \"QAMA\",\n        \"maidenName\": \"\",\n        \"maritalStatus\": \"0\",\n        \"gender\": \"M\",\n        \"nationalityCode\": \"586\",\n        \"birthDate\": \"12121991\",\n        \"birthCountry\": \"\",\n        \"birthCity\": \"\",\n        \"vipFlag\": \"\",\n        \"education\": \"\",\n        \"languagePreference\": \"en\",\n        \"embossedName\": \"KAINAT QAMA\",\n        \"encodedName\": \"\"\n    },\n    \"addonProfile\": {\n        \"addonTitle\": \"\",\n        \"addonFirstName\": \"\",\n        \"addonMiddleName\": \"\",\n        \"addonLastName\": \"\",\n        \"addonMaidenName\": \"\",\n        \"addonEmbossedName\": \"\",\n        \"addonAlternateName\": \"\",\n        \"addonGender\": \"\",\n        \"addonRelation\": \"\",\n        \"addonBirthDate\": \"\",\n        \"addonBirthCountry\": \"\",\n        \"addonBirthCity\": \"\",\n        \"addonEmailId\": \"\",\n        \"addonMobileISDCode\": \"\",\n        \"addonMobileNumber\": \"\",\n        \"addonPhotoIndicator\": \"\",\n        \"addonphotoCode\": \"\",\n        \"addonpictureCode\": \"\"\n    },\n    \"pictureCode\": \"\",\n    \"photoCode\": \"\",\n    \"contactInfo\": {\n        \"registeredEmailId\": \"DUMMY@MAIL.COM\",\n        \"regMobileISDNCode\": \"+92\",\n        \"registeredMobileNumber\": \"3115904570\",\n        \"faxNumber\": \"\",\n        \"registerForDNCR\": \"N\",\n        \"smsAlert\": \"Y\",\n        \"emailAlert\": \"Y\",\n        \"statementCopyMode\": \"\",\n        \"preferredMailingAddress\": \"P\"\n    },\n    \"deliveryMode\": \"0\",\n    \"deliveryFlag\": \"1\",\n    \"deliveryDate\": \"29052025\",\n    \"accountNumber\": \"03115904570\",\n    \"accountCurrency\": \"586\",\n    \"accountType\": \"20\",\n    \"cBSClientID\": \"03115904570\",\n    \"currentAddress\": {\n        \"currentAddress1\": \"Karachi Pakistan\",\n        \"currentAddress2\": \"\",\n        \"currentAddress3\": \"\",\n        \"currentAddress4\": \"\",\n        \"currentCountry\": \"586\",\n        \"currentState\": \"\",\n        \"currentCity\": \"\",\n        \"currentZipCode\": \"\",\n        \"currentContactNo1\": \"\",\n        \"currentContactNo2\": \"\"\n    },\n    \"lodgingMode\": \"\",\n    \"permanentAddress\": {\n        \"permanentAddress1\": \"Karachi Pakistan\",\n        \"permanentAddress2\": \"\",\n        \"permanentAddress3\": \"\",\n        \"permanentAddress4\": \"\",\n        \"permanentCountry\": \"586\",\n        \"permanentState\": \"\",\n        \"permanentCity\": \"\",\n        \"permanentZipCode\": \"\",\n        \"permanentContactNo1\": \"\",\n        \"permanentContactNo2\": \"\"\n    },\n    \"permanentAddressFrom\": \"\",\n    \"officeAddress\": {\n        \"officeAddress1\": \"\",\n        \"officeAddress2\": \"\",\n        \"officeAddress3\": \"\",\n        \"officeAddress4\": \"\",\n        \"officeCountry\": \"\",\n        \"officeState\": \"\",\n        \"officeCity\": \"\",\n        \"officeZipCode\": \"\",\n        \"officeContactNo1\": \"\",\n        \"officeContactNo2\": \"\",\n        \"officeExt\": \"\",\n        \"officeMobileISDN\": \"\",\n        \"officeMobNo\": \"\",\n        \"officeEmailID\": \"\"\n    },\n    \"occupation\": {\n        \"employmentStatus\": \"\",\n        \"employeeID\": \"\",\n        \"employerName\": \"\",\n        \"employerType\": \"\",\n        \"designation\": \"\",\n        \"department\": \"\",\n        \"occupationType\": \"\",\n        \"jobTenureYear\": \"\",\n        \"joiningDate\": \"\"\n    },\n    \"legalDocuments\": {\n        \"legalIdType1\": \"02\",\n        \"legalId1\": \"3740561042166\",\n        \"legalID1PlaceOfIssuance\": \"\",\n        \"legalID1ExpiryDate\": \"\",\n        \"legalIdType2\": \"\",\n        \"legalId2\": \"\",\n        \"legalID2PlaceOfIssuance\": \"\",\n        \"legalID2ExpiryDate\": \"\",\n        \"legalIdType3\": \"\",\n        \"legalId3\": \"\",\n        \"legalID3PlaceOfIssuance\": \"\",\n        \"legalID3ExpiryDate\": \"\",\n        \"legalIdType4\": \"\",\n        \"legalId4\": \"\",\n        \"legalID4PlaceOfIssuance\": \"\",\n        \"legalID4ExpiryDate\": \"\"\n    },\n    \"clientExtraFields\": {\n        \"clientDateField1\": \"\",\n        \"clientDateField2\": \"\",\n        \"clientDateField3\": \"\",\n        \"clientDateField4\": \"\",\n        \"clientDateField5\": \"\",\n        \"clientDataField1\": \"\",\n        \"clientDataField2\": \"\",\n        \"clientDataField3\": \"\",\n        \"clientDataField4\": \"\",\n        \"clientDataField5\": \"\",\n        \"clientAmountField1\": \"\",\n        \"clientAmountField2\": \"\",\n        \"clientAmountField3\": \"\",\n        \"clientAmountField4\": \"\",\n        \"clientAmountField5\": \"\"\n    },\n    \"walletExtraFields\": {\n        \"walletDateField1\": \"\",\n        \"walletDateField2\": \"\",\n        \"walletDateField3\": \"\",\n        \"walletDateField4\": \"\",\n        \"walletDateField5\": \"\",\n        \"walletDataField1\": \"\",\n        \"walletDataField2\": \"\",\n        \"walletDataField3\": \"\",\n        \"walletDataField4\": \"\",\n        \"walletDataField5\": \"\",\n        \"walletAmountField1\": \"\",\n        \"walletAmountField2\": \"\",\n        \"walletAmountField3\": \"\",\n        \"walletAmountField4\": \"\",\n        \"walletAmountField5\": \"\"\n    },\n    \"deviceExtraFields\": {\n        \"deviceDateField1\": \"\",\n        \"deviceDateField2\": \"\",\n        \"deviceDateField3\": \"\",\n        \"deviceDateField4\": \"\",\n        \"deviceDateField5\": \"\",\n        \"deviceDataField1\": \"\",\n        \"deviceDataField2\": \"\",\n        \"deviceDataField3\": \"\",\n        \"deviceDataField4\": \"\",\n        \"deviceDataField5\": \"\",\n        \"deviceAmountField1\": \"\",\n        \"deviceAmountField2\": \"\",\n        \"deviceAmountField3\": \"\",\n        \"deviceAmountField4\": \"\",\n        \"deviceAmountField5\": \"\"\n    },\n    \"instantCardFlag\": \"N\",\n    \"numberlessCardFlag\": \"Y\",\n    \"perTransactionLimit\": \"\",\n    \"velocity\": \"\",\n    \"totalTransactionLimit\": \"\",\n    \"expiryDate\": \"\",\n    \"timestamp\": \"1748518564774\"\n}"
+				},
+				"url": {
+					"raw": "https://api-gw.jazzcash.com.pk/jazzcash/pts/api/v1/pts/DebitCustomerBoarding",
+					"protocol": "https",
+					"host": [
+						"api-gw",
+						"jazzcash",
+						"com",
+						"pk"
+					],
+					"path": [
+						"jazzcash",
+						"pts",
+						"api",
+						"v1",
+						"pts",
+						"DebitCustomerBoarding"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Debit Customer Boarding QRVCN Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-ID",
+						"value": "1e3b8f9de70d67dca0a5b59e1ee3507e",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-Secret",
+						"value": "27148478425bce8a2f44cf4fc72365f2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"requestType\": \"1\",\n    \"issueExistingDevice\": {\n        \"deviceNumber\": \"\",\n        \"cardPackId\": \"\"\n    },\n    \"customerType\": \"0\",\n    \"programCode\": \"JCR001\",\n    \"existingDeviceNumber\": \"\",\n    \"existingAddOnClientCode\": \"\",\n    \"walletPlan1Promo\": \"\",\n    \"devicePlanCode1\": \"RDP03\",\n    \"devicePlanPromoCode1\": \"\",\n    \"devicePhotoIndicator1\": \"0\",\n    \"devicePlanCode2\": \"\",\n    \"devicePlanPromoCode2\": \"\",\n    \"devicePhotoIndicator2\": \"\",\n    \"devicePlanCode3\": \"\",\n    \"devicePlanPromoCode3\": \"\",\n    \"devicePhotoIndicator3\": \"\",\n    \"devicePlanCode4\": \"\",\n    \"devicePlanPromoCode4\": \"\",\n    \"devicePhotoIndicator4\": \"\",\n    \"devicePlanCode5\": \"\",\n    \"devicePlanPromoCode5\": \"\",\n    \"devicePhotoIndicator5\": \"\",\n    \"devicePlanCode6\": \"\",\n    \"devicePlanPromoCode6\": \"\",\n    \"devicePhotoIndicator6\": \"\",\n    \"branchCode\": \"000003\",\n    \"corporateClientCode\": \"\",\n    \"profile\": {\n        \"title\": \"1\",\n        \"firstName\": \"MINAB\",\n        \"middleName1\": \"\",\n        \"middleName2\": \"\",\n        \"lastName\": \"IMRAN\",\n        \"maidenName\": \"\",\n        \"maritalStatus\": \"0\",\n        \"gender\": \"F\",\n        \"nationalityCode\": \"586\",\n        \"birthDate\": \"19860807\",\n        \"birthCountry\": \"\",\n        \"birthCity\": \"\",\n        \"vipFlag\": \"\",\n        \"education\": \"\",\n        \"languagePreference\": \"en\",\n        \"embossedName\": \"MINAB IMRAN\",\n        \"encodedName\": \"\"\n    },\n    \"addonProfile\": {\n        \"addonTitle\": \"\",\n        \"addonFirstName\": \"\",\n        \"addonMiddleName\": \"\",\n        \"addonLastName\": \"\",\n        \"addonMaidenName\": \"\",\n        \"addonEmbossedName\": \"\",\n        \"addonAlternateName\": \"\",\n        \"addonGender\": \"\",\n        \"addonRelation\": \"\",\n        \"addonBirthDate\": \"\",\n        \"addonBirthCountry\": \"\",\n        \"addonBirthCity\": \"\",\n        \"addonEmailId\": \"\",\n        \"addonMobileISDCode\": \"\",\n        \"addonMobileNumber\": \"\",\n        \"addonPhotoIndicator\": \"\",\n        \"addonphotoCode\": \"\",\n        \"addonpictureCode\": \"\"\n    },\n    \"pictureCode\": \"\",\n    \"photoCode\": \"\",\n    \"contactInfo\": {\n        \"registeredEmailId\": \"DUMMY@MAIL.COM\",\n        \"regMobileISDNCode\": \"+92\",\n        \"registeredMobileNumber\": \"3214001251\",\n        \"faxNumber\": \"\",\n        \"registerForDNCR\": \"N\",\n        \"smsAlert\": \"Y\",\n        \"emailAlert\": \"Y\",\n        \"statementCopyMode\": \"\",\n        \"preferredMailingAddress\": \"P\"\n    },\n    \"deliveryMode\": \"0\",\n    \"deliveryFlag\": \"1\",\n    \"deliveryDate\": \"20042023\",\n    \"accountNumber\": \"03214001251\",\n    \"accountCurrency\": \"586\",\n    \"accountType\": \"20\",\n    \"cBSClientID\": \"03214001251\",\n    \"currentAddress\": {\n        \"currentAddress1\": \"Karachi Pakistan\",\n        \"currentAddress2\": \"\",\n        \"currentAddress3\": \"\",\n        \"currentAddress4\": \"\",\n        \"currentCountry\": \"586\",\n        \"currentState\": \"\",\n        \"currentCity\": \"\",\n        \"currentZipCode\": \"\",\n        \"currentContactNo1\": \"\",\n        \"currentContactNo2\": \"\"\n    },\n    \"lodgingMode\": \"\",\n    \"permanentAddress\": {\n        \"permanentAddress1\": \"Karachi Pakistan\",\n        \"permanentAddress2\": \"\",\n        \"permanentAddress3\": \"\",\n        \"permanentAddress4\": \"\",\n        \"permanentCountry\": \"586\",\n        \"permanentState\": \"\",\n        \"permanentCity\": \"\",\n        \"permanentZipCode\": \"\",\n        \"permanentContactNo1\": \"\",\n        \"permanentContactNo2\": \"\"\n    },\n    \"permanentAddressFrom\": \"\",\n    \"officeAddress\": {\n        \"officeAddress1\": \"\",\n        \"officeAddress2\": \"\",\n        \"officeAddress3\": \"\",\n        \"officeAddress4\": \"\",\n        \"officeCountry\": \"\",\n        \"officeState\": \"\",\n        \"officeCity\": \"\",\n        \"officeZipCode\": \"\",\n        \"officeContactNo1\": \"\",\n        \"officeContactNo2\": \"\",\n        \"officeExt\": \"\",\n        \"officeMobileISDN\": \"\",\n        \"officeMobNo\": \"\",\n        \"officeEmailID\": \"\"\n    },\n    \"occupation\": {\n        \"employmentStatus\": \"\",\n        \"employeeID\": \"\",\n        \"employerName\": \"\",\n        \"employerType\": \"\",\n        \"designation\": \"\",\n        \"department\": \"\",\n        \"occupationType\": \"\",\n        \"jobTenureYear\": \"\",\n        \"joiningDate\": \"\"\n    },\n    \"legalDocuments\": {\n        \"legalIdType1\": \"02\",\n        \"legalId1\": \"3310017713770\",\n        \"legalID1PlaceOfIssuance\": \"\",\n        \"legalID1ExpiryDate\": \"\",\n        \"legalIdType2\": \"\",\n        \"legalId2\": \"\",\n        \"legalID2PlaceOfIssuance\": \"\",\n        \"legalID2ExpiryDate\": \"\",\n        \"legalIdType3\": \"\",\n        \"legalId3\": \"\",\n        \"legalID3PlaceOfIssuance\": \"\",\n        \"legalID3ExpiryDate\": \"\",\n        \"legalIdType4\": \"\",\n        \"legalId4\": \"\",\n        \"legalID4PlaceOfIssuance\": \"\",\n        \"legalID4ExpiryDate\": \"\"\n    },\n    \"clientExtraFields\": {\n        \"clientDateField1\": \"\",\n        \"clientDateField2\": \"\",\n        \"clientDateField3\": \"\",\n        \"clientDateField4\": \"\",\n        \"clientDateField5\": \"\",\n        \"clientDataField1\": \"\",\n        \"clientDataField2\": \"\",\n        \"clientDataField3\": \"\",\n        \"clientDataField4\": \"\",\n        \"clientDataField5\": \"\",\n        \"clientAmountField1\": \"\",\n        \"clientAmountField2\": \"\",\n        \"clientAmountField3\": \"\",\n        \"clientAmountField4\": \"\",\n        \"clientAmountField5\": \"\"\n    },\n    \"walletExtraFields\": {\n        \"walletDateField1\": \"\",\n        \"walletDateField2\": \"\",\n        \"walletDateField3\": \"\",\n        \"walletDateField4\": \"\",\n        \"walletDateField5\": \"\",\n        \"walletDataField1\": \"\",\n        \"walletDataField2\": \"\",\n        \"walletDataField3\": \"\",\n        \"walletDataField4\": \"\",\n        \"walletDataField5\": \"\",\n        \"walletAmountField1\": \"\",\n        \"walletAmountField2\": \"\",\n        \"walletAmountField3\": \"\",\n        \"walletAmountField4\": \"\",\n        \"walletAmountField5\": \"\"\n    },\n    \"deviceExtraFields\": {\n        \"deviceDateField1\": \"\",\n        \"deviceDateField2\": \"\",\n        \"deviceDateField3\": \"\",\n        \"deviceDateField4\": \"\",\n        \"deviceDateField5\": \"\",\n        \"deviceDataField1\": \"\",\n        \"deviceDataField2\": \"\",\n        \"deviceDataField3\": \"\",\n        \"deviceDataField4\": \"\",\n        \"deviceDataField5\": \"\",\n        \"deviceAmountField1\": \"\",\n        \"deviceAmountField2\": \"\",\n        \"deviceAmountField3\": \"\",\n        \"deviceAmountField4\": \"\",\n        \"deviceAmountField5\": \"\"\n    },\n    \"instantCardFlag\": \"N\",\n    \"numberlessCardFlag\": \"\",\n    \"perTransactionLimit\": \"\",\n    \"velocity\": \"\",\n    \"totalTransactionLimit\": \"\",\n    \"expiryDate\": \"\",\n    \"timestamp\": \"1681985254855\"\n}"
+				},
+				"url": {
+					"raw": "https://api-gw.jazzcash.com.pk/jazzcash/pts/api/v1/pts/DebitCustomerBoarding",
+					"protocol": "https",
+					"host": [
+						"api-gw",
+						"jazzcash",
+						"com",
+						"pk"
+					],
+					"path": [
+						"jazzcash",
+						"pts",
+						"api",
+						"v1",
+						"pts",
+						"DebitCustomerBoarding"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Debit Customer Boarding Physical cards",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-ID",
+						"value": "1e3b8f9de70d67dca0a5b59e1ee3507e",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-Secret",
+						"value": "27148478425bce8a2f44cf4fc72365f2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"requestType\": \"3\",\n    \"issueExistingDevice\": {\n        \"deviceNumber\": \"\",\n        \"cardPackId\": \"\"\n    },\n    \"customerType\": \"0\",\n    \"programCode\": \"JCR001\",\n    \"existingDeviceNumber\": \"5591771000022319\",\n    \"existingAddOnClientCode\": \"\",\n    \"walletPlan1Promo\": \"\",\n    \"devicePlanCode1\": \"RDP01\",\n    \"devicePlanPromoCode1\": \"\",\n    \"devicePhotoIndicator1\": \"0\",\n    \"devicePlanCode2\": \"\",\n    \"devicePlanPromoCode2\": \"\",\n    \"devicePhotoIndicator2\": \"\",\n    \"devicePlanCode3\": \"\",\n    \"devicePlanPromoCode3\": \"\",\n    \"devicePhotoIndicator3\": \"\",\n    \"devicePlanCode4\": \"\",\n    \"devicePlanPromoCode4\": \"\",\n    \"devicePhotoIndicator4\": \"\",\n    \"devicePlanCode5\": \"\",\n    \"devicePlanPromoCode5\": \"\",\n    \"devicePhotoIndicator5\": \"\",\n    \"devicePlanCode6\": \"\",\n    \"devicePlanPromoCode6\": \"\",\n    \"devicePhotoIndicator6\": \"\",\n    \"branchCode\": \"000003\",\n    \"corporateClientCode\": \"\",\n    \"profile\": {\n        \"title\": \"1\",\n        \"firstName\": \"SAFEE\",\n        \"middleName1\": \"\",\n        \"middleName2\": \"\",\n        \"lastName\": \"ULLAH\",\n        \"maidenName\": \"\",\n        \"maritalStatus\": \"0\",\n        \"gender\": \"M\",\n        \"nationalityCode\": \"586\",\n        \"birthDate\": \"12121991\",\n        \"birthCountry\": \"\",\n        \"birthCity\": \"\",\n        \"vipFlag\": \"\",\n        \"education\": \"\",\n        \"languagePreference\": \"en\",\n        \"embossedName\": \"SAFEE ULLAH\",\n        \"encodedName\": \"\"\n    },\n    \"addonProfile\": {\n        \"addonTitle\": \"\",\n        \"addonFirstName\": \"\",\n        \"addonMiddleName\": \"\",\n        \"addonLastName\": \"\",\n        \"addonMaidenName\": \"\",\n        \"addonEmbossedName\": \"\",\n        \"addonAlternateName\": \"\",\n        \"addonGender\": \"\",\n        \"addonRelation\": \"\",\n        \"addonBirthDate\": \"\",\n        \"addonBirthCountry\": \"\",\n        \"addonBirthCity\": \"\",\n        \"addonEmailId\": \"\",\n        \"addonMobileISDCode\": \"\",\n        \"addonMobileNumber\": \"\",\n        \"addonPhotoIndicator\": \"\",\n        \"addonphotoCode\": \"\",\n        \"addonpictureCode\": \"\"\n    },\n    \"pictureCode\": \"\",\n    \"photoCode\": \"\",\n    \"contactInfo\": {\n        \"registeredEmailId\": \"DUMMY@MAIL.COM\",\n        \"regMobileISDNCode\": \"+92\",\n        \"registeredMobileNumber\": \"3162394467\",\n        \"faxNumber\": \"\",\n        \"registerForDNCR\": \"N\",\n        \"smsAlert\": \"Y\",\n        \"emailAlert\": \"Y\",\n        \"statementCopyMode\": \"\",\n        \"preferredMailingAddress\": \"P\"\n    },\n    \"deliveryMode\": \"0\",\n    \"deliveryFlag\": \"1\",\n    \"deliveryDate\": \"03022023\",\n    \"accountNumber\": \"03162394467\",\n    \"accountCurrency\": \"586\",\n    \"accountType\": \"20\",\n    \"cBSClientID\": \"03162394467\",\n    \"currentAddress\": {\n        \"currentAddress1\": \"Karachi Pakistan\",\n        \"currentAddress2\": \"\",\n        \"currentAddress3\": \"\",\n        \"currentAddress4\": \"\",\n        \"currentCountry\": \"586\",\n        \"currentState\": \"\",\n        \"currentCity\": \"\",\n        \"currentZipCode\": \"\",\n        \"currentContactNo1\": \"\",\n        \"currentContactNo2\": \"\"\n    },\n    \"lodgingMode\": \"\",\n    \"permanentAddress\": {\n        \"permanentAddress1\": \"Karachi Pakistan\",\n        \"permanentAddress2\": \"\",\n        \"permanentAddress3\": \"\",\n        \"permanentAddress4\": \"\",\n        \"permanentCountry\": \"586\",\n        \"permanentState\": \"\",\n        \"permanentCity\": \"\",\n        \"permanentZipCode\": \"\",\n        \"permanentContactNo1\": \"\",\n        \"permanentContactNo2\": \"\"\n    },\n    \"permanentAddressFrom\": \"\",\n    \"officeAddress\": {\n        \"officeAddress1\": \"\",\n        \"officeAddress2\": \"\",\n        \"officeAddress3\": \"\",\n        \"officeAddress4\": \"\",\n        \"officeCountry\": \"\",\n        \"officeState\": \"\",\n        \"officeCity\": \"\",\n        \"officeZipCode\": \"\",\n        \"officeContactNo1\": \"\",\n        \"officeContactNo2\": \"\",\n        \"officeExt\": \"\",\n        \"officeMobileISDN\": \"\",\n        \"officeMobNo\": \"\",\n        \"officeEmailID\": \"\"\n    },\n    \"occupation\": {\n        \"employmentStatus\": \"\",\n        \"employeeID\": \"\",\n        \"employerName\": \"\",\n        \"employerType\": \"\",\n        \"designation\": \"\",\n        \"department\": \"\",\n        \"occupationType\": \"\",\n        \"jobTenureYear\": \"\",\n        \"joiningDate\": \"\"\n    },\n    \"legalDocuments\": {\n        \"legalIdType1\": \"02\",\n        \"legalId1\": \"4220117880525\",\n        \"legalID1PlaceOfIssuance\": \"\",\n        \"legalID1ExpiryDate\": \"\",\n        \"legalIdType2\": \"\",\n        \"legalId2\": \"\",\n        \"legalID2PlaceOfIssuance\": \"\",\n        \"legalID2ExpiryDate\": \"\",\n        \"legalIdType3\": \"\",\n        \"legalId3\": \"\",\n        \"legalID3PlaceOfIssuance\": \"\",\n        \"legalID3ExpiryDate\": \"\",\n        \"legalIdType4\": \"\",\n        \"legalId4\": \"\",\n        \"legalID4PlaceOfIssuance\": \"\",\n        \"legalID4ExpiryDate\": \"\"\n    },\n    \"clientExtraFields\": {\n        \"clientDateField1\": \"\",\n        \"clientDateField2\": \"\",\n        \"clientDateField3\": \"\",\n        \"clientDateField4\": \"\",\n        \"clientDateField5\": \"\",\n        \"clientDataField1\": \"\",\n        \"clientDataField2\": \"\",\n        \"clientDataField3\": \"\",\n        \"clientDataField4\": \"\",\n        \"clientDataField5\": \"\",\n        \"clientAmountField1\": \"\",\n        \"clientAmountField2\": \"\",\n        \"clientAmountField3\": \"\",\n        \"clientAmountField4\": \"\",\n        \"clientAmountField5\": \"\"\n    },\n    \"walletExtraFields\": {\n        \"walletDateField1\": \"\",\n        \"walletDateField2\": \"\",\n        \"walletDateField3\": \"\",\n        \"walletDateField4\": \"\",\n        \"walletDateField5\": \"\",\n        \"walletDataField1\": \"\",\n        \"walletDataField2\": \"\",\n        \"walletDataField3\": \"\",\n        \"walletDataField4\": \"\",\n        \"walletDataField5\": \"\",\n        \"walletAmountField1\": \"\",\n        \"walletAmountField2\": \"\",\n        \"walletAmountField3\": \"\",\n        \"walletAmountField4\": \"\",\n        \"walletAmountField5\": \"\"\n    },\n    \"deviceExtraFields\": {\n        \"deviceDateField1\": \"\",\n        \"deviceDateField2\": \"\",\n        \"deviceDateField3\": \"\",\n        \"deviceDateField4\": \"\",\n        \"deviceDateField5\": \"\",\n        \"deviceDataField1\": \"\",\n        \"deviceDataField2\": \"\",\n        \"deviceDataField3\": \"\",\n        \"deviceDataField4\": \"\",\n        \"deviceDataField5\": \"\",\n        \"deviceAmountField1\": \"\",\n        \"deviceAmountField2\": \"\",\n        \"deviceAmountField3\": \"\",\n        \"deviceAmountField4\": \"\",\n        \"deviceAmountField5\": \"\"\n    },\n    \"instantCardFlag\": \"N\",\n    \"numberlessCardFlag\": \"Y\",\n    \"perTransactionLimit\": \"\",\n    \"velocity\": \"\",\n    \"totalTransactionLimit\": \"\",\n    \"expiryDate\": \"\",\n    \"timestamp\": \"1675432672739\"\n}"
+				},
+				"url": {
+					"raw": "https://api-gw.jazzcash.com.pk/jazzcash/pts/api/v1/pts/DebitCustomerBoarding",
+					"protocol": "https",
+					"host": [
+						"api-gw",
+						"jazzcash",
+						"com",
+						"pk"
+					],
+					"path": [
+						"jazzcash",
+						"pts",
+						"api",
+						"v1",
+						"pts",
+						"DebitCustomerBoarding"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Debit Card Registration for Existing Client",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-ID",
+						"value": "626975e608069fa687a482edfba30452",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-Secret",
+						"value": "4cb579a91ce8276047e088329c09925e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"application\": {\n        \"requestType\": \"PRIMARY\",\n        \"branchCode\": \"1925\"\n    },\n    \"client\": {\n        \"existingAddonClientCode\": \"\",\n        \"corporateClientCode\": \"\"\n    },\n    \"device\": {\n        \"productType\": \"DEBIT\",\n        \"existingPrimaryDeviceNumber\": \"4335700000001092\",\n        \"deviceNumber\": \"6336500000000092\",\n        \"packID\": \"\",\n        \"devicePlanPromoCode\": \"\",\n        \"newDevice\": {\n            \"embossedName\": \"\",\n            \"photoIndicator\": \"\"\n        }\n    },\n    \"cbsAccount\": {\n        \"type\": \"SAVINGS\",\n        \"number\": \"3818760107\",\n        \"clientCode\": \"\"\n    },\n    \"dataValidUntilTimestamp\": \"2021-06-30T12:09:56.450+05:30\"\n}"
+				},
+				"url": {
+					"raw": "https://api-gw-test.jazzcash.com.pk/jazzcash/rest/api/v1/pts/DebitCardRegistrationExistingClient",
+					"protocol": "https",
+					"host": [
+						"api-gw-test",
+						"jazzcash",
+						"com",
+						"pk"
+					],
+					"path": [
+						"jazzcash",
+						"rest",
+						"api",
+						"v1",
+						"pts",
+						"DebitCardRegistrationExistingClient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EmbossDetails",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-ID",
+						"value": "626975e608069fa687a482edfba30452",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-Secret",
+						"value": "4cb579a91ce8276047e088329c09925e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"deviceNumber\": \"4662910000000373\",\n\"cardPackId\" :\"4662910PVCRE0000000952\",\n\"mobileNumber\": \"+919682858016\",\n\"timeStamp\": \"1349333576093\"\n}\n"
+				},
+				"url": {
+					"raw": "https://api-gw-test.jazzcash.com.pk/jazzcash/rest/api/v1/pts/EmbossDetails",
+					"protocol": "https",
+					"host": [
+						"api-gw-test",
+						"jazzcash",
+						"com",
+						"pk"
+					],
+					"path": [
+						"jazzcash",
+						"rest",
+						"api",
+						"v1",
+						"pts",
+						"EmbossDetails"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CardReplacement",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "X-Client-ID",
+						"value": "1e3b8f9de70d67dca0a5b59e1ee3507e"
+					},
+					{
+						"key": "X-Client-Secret",
+						"value": "27148478425bce8a2f44cf4fc72365f2"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"deviceNumber\": \"5591770010257329\",//OLD physical Card\n    \"priorityRequest\": \"1\",\n    \"note\": \"Card replacement request\",\n    \"channel\": \"31\",\n    \"requestDate\": \"04/10/2025 13:04:26\",//mdy\n    \"reason\": \"06\",\n    \"newCardNumber\": \"1\",\n    \"replacementFees\": \"0\",\n    \"instantCard\": \"N\",\n    \"embossedName\": \"M IKRAM UR\",\n    \"branchCode\": \"000003\",\n    \"timestamp\": \"1744272140802\"\n}"
+				},
+				"url": {
+					"raw": "https://api-gw.jazzcash.com.pk/jazzcash/pts/api/v1/pts/CardReplacement",
+					"protocol": "https",
+					"host": [
+						"api-gw",
+						"jazzcash",
+						"com",
+						"pk"
+					],
+					"path": [
+						"jazzcash",
+						"pts",
+						"api",
+						"v1",
+						"pts",
+						"CardReplacement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ClientProfileInfo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-ID",
+						"value": "1e3b8f9de70d67dca0a5b59e1ee3507e",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-Secret",
+						"value": "27148478425bce8a2f44cf4fc72365f2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"formFactorType\": \"LID\",\n        \"formFactor\": \"3330348608399\",\n        \"productType\": \"D\",\n        \"programCode\": \"JCR001\",\n        \"devicePlanCode\": \"RDP03\",\n        \"timestamp\": \"1671447985815\"\n    }"
+				},
+				"url": {
+					"raw": "https://api-gw.jazzcash.com.pk/jazzcash/pts/api/v1/pts/ClientProfileInfo",
+					"protocol": "https",
+					"host": [
+						"api-gw",
+						"jazzcash",
+						"com",
+						"pk"
+					],
+					"path": [
+						"jazzcash",
+						"pts",
+						"api",
+						"v1",
+						"pts",
+						"ClientProfileInfo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ClientProfileInfo Copy",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-ID",
+						"value": "1e3b8f9de70d67dca0a5b59e1ee3507e",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-Secret",
+						"value": "27148478425bce8a2f44cf4fc72365f2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"formFactorType\": \"CRD\",\r\n    \"formFactor\": \"5591770007057815\",\r\n    \"productType\": \"D\",\r\n    \"programCode\": \"JCR001\",\r\n    \"devicePlanCode\": \"RDP03\",\r\n    \"timestamp\": \"1671447985815\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api-gw.jazzcash.com.pk/jazzcash/pts/api/v1/pts/ClientProfileInfo",
+					"protocol": "https",
+					"host": [
+						"api-gw",
+						"jazzcash",
+						"com",
+						"pk"
+					],
+					"path": [
+						"jazzcash",
+						"pts",
+						"api",
+						"v1",
+						"pts",
+						"ClientProfileInfo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ClientProfileInfo Copy 2",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-ID",
+						"value": "1e3b8f9de70d67dca0a5b59e1ee3507e",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-Secret",
+						"value": "27148478425bce8a2f44cf4fc72365f2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"formFactorType\": \"CRD\",\n        \"formFactor\": \"5591772500199987\",\n        \"productType\": \"D\",\n        \"programCode\": \"JCR001\",\n        \"devicePlanCode\": \"RDP03\",\n        \"timestamp\": \"1671447985815\"\n    }"
+				},
+				"url": {
+					"raw": "https://api-gw.jazzcash.com.pk/jazzcash/pts/api/v1/pts/ClientProfileInfo",
+					"protocol": "https",
+					"host": [
+						"api-gw",
+						"jazzcash",
+						"com",
+						"pk"
+					],
+					"path": [
+						"jazzcash",
+						"pts",
+						"api",
+						"v1",
+						"pts",
+						"ClientProfileInfo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ClientProfileInfo Copy 3",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-ID",
+						"value": "1e3b8f9de70d67dca0a5b59e1ee3507e",
+						"type": "text"
+					},
+					{
+						"key": "X-Client-Secret",
+						"value": "27148478425bce8a2f44cf4fc72365f2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"formFactorType\": \"CPI\",\n        \"formFactor\": \"PKRJCR0010057113226\",\n        \"productType\": \"D\",\n        \"programCode\": \"JCR001\",\n        \"devicePlanCode\": \"RDP03\",\n        \"timestamp\": \"1671447985815\"\n    }"
+				},
+				"url": {
+					"raw": "https://api-gw.jazzcash.com.pk/jazzcash/pts/api/v1/pts/ClientProfileInfo",
+					"protocol": "https",
+					"host": [
+						"api-gw",
+						"jazzcash",
+						"com",
+						"pk"
+					],
+					"path": [
+						"jazzcash",
+						"pts",
+						"api",
+						"v1",
+						"pts",
+						"ClientProfileInfo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
