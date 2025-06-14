@@ -58,7 +58,7 @@
                                     <input type="text" name="username" required>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                    <label>Phone <span>*</span></label>
+                                    <label>Phone </label>
                                     <input type="text" name="phone" >
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 form-group">
