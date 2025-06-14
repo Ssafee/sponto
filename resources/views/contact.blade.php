@@ -59,7 +59,7 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                     <label>Phone <span>*</span></label>
-                                    <input type="text" name="phone" required>
+                                    <input type="text" name="phone" >
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                     <label>Email Address <span>*</span></label>
@@ -76,6 +76,7 @@
                                 <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
                                     <button type="submit" class="theme-btn btn-one">Send Message</button>
                                 </div>
+                                <p>By providing a telephone number and submitting the form, you are consenting to be contacted by SMS text message and agreeing to our <a href="{{ route('privacy-policy') }}">Privacy Policy</a>. Message frequency may vary. Message and data rates may apply. Reply STOP to opt out of further messaging. Reply HELP for more information.</p>
                             </div>
                         </form>
 

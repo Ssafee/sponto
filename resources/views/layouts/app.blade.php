@@ -205,7 +205,7 @@
                                             <li><a href="{{ route('privacy-policy') }}">Privacy Policy</a></li>
                                         </ul>
                                     </li> 
-                                    <li><a href="{{ route('contact_us') }}">Contact</a></li>
+                                    <li><a href="{{ route('contact_us') }}">Contact us</a></li>
 
                                     
                                         {{--<li class=""><a href="{{ route('home') }}">Solutions</a>
@@ -354,7 +354,7 @@
                                     
                                             <li><a href="{{ route('terms-conditions') }}">Terms & Conditions</a></li>
                                             <li><a href="{{ route('privacy-policy') }}">Privacy Policy</a></li>
-                                    <li><a href="{{ route('contact_us') }}">Contact</a></li>
+                                    <li><a href="{{ route('contact_us') }}">Contact us</a></li>
 
                                     </ul>
                                 </div>

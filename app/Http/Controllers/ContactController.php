@@ -13,7 +13,6 @@ class ContactController extends Controller
         // Validate form input
         $request->validate([
             'username' => 'required|string',
-            'phone' => 'required|string',
             'email' => 'required|email',
             'subject' => 'required|string',
             'message' => 'required|string',
@@ -22,7 +21,7 @@ class ContactController extends Controller
         // Prepare data
         $contactData = [
             'username' => $request->username,
-            'phone' => $request->phone,
+            'phone' => empty($request->phone)?'-':$request->phone,
             'email' => $request->email,
             'subject' => $request->subject,
             'message' => $request->message,
