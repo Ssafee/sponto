@@ -332,10 +332,10 @@
                                             src="assets/images/whitelogo.png" alt=""></a></figure>
                                 <p>Elite offshore talent. Scale faster, cut costs, and win.</p>
                                 <ul class="social-links">
-                                    <li><a href="#"><i class="icon-22"></i></a></li>
-                                    <li><a href="#"><i class="icon-23"></i></a></li>
-                                    <li><a href="#"><i class="icon-24"></i></a></li>
-                                    <li><a href="#"><i class="icon-25"></i></a></li>
+                                    <li><a href="https://www.facebook.com/SpontoRemoteTalents" target="_blank"><i class="icon-22"></i></a></li>
+                                    <li><a href="https://www.instagram.com/sponto.pk/" target="_blank"><i class="icon-23"></i></a></li> 
+                                    <li><a href="https://www.linkedin.com/company/spontooffshore" target="_blank"><i class="icon-24"></i></a></li>
+                                    <li><a href="https://www.tiktok.com/@sponto.offshore" target="_blank"><i class="icon-25"></i></a></li>
                                 </ul>
                             </div>
                         </div>
