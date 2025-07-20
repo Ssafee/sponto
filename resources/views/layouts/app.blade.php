@@ -74,6 +74,8 @@
     <link href="{{asset('assets/css/module-css/service-details.css?v=1.1')}}" rel="stylesheet">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2NBMYF6GHG"></script>
+                                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -332,11 +334,10 @@
                                             src="assets/images/whitelogo.png" alt=""></a></figure>
                                 <p>Elite offshore talent. Scale faster, cut costs, and win.</p>
                                 <ul class="social-links">
-                                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-                                    <li><a href="https://www.facebook.com/SpontoRemoteTalents" target="_blank"><i class="icon-22"></i></a></li>
-                                    <li><a href="https://www.instagram.com/sponto.pk/" target="_blank"><i class="fab fa-instagram"></i></a></li> 
                                     <li><a href="https://www.linkedin.com/company/spontooffshore" target="_blank"><i class="icon-24"></i></a></li>
+                                    <li><a href="https://www.instagram.com/sponto.pk/" target="_blank"><i class="fab fa-instagram"></i></a></li> 
                                     <li><a href="https://www.tiktok.com/@sponto.offshore" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+                                    <li><a href="https://www.facebook.com/SpontoRemoteTalents" target="_blank"><i class="icon-22"></i></a></li>
                                 </ul>
                             </div>
                         </div>
