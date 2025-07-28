@@ -2,7 +2,7 @@
 @section('content')
 
  <!-- page-title -->
- <section class="page-title centred pt_110">
+ <section class="page-title centred pt_110 ">
             <div class="auto-container">
                 <div class="content-box" style="padding-top: 110px">
                     <h1 style="font-size: 56px;">About Us</h1>
