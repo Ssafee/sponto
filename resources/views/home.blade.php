@@ -347,7 +347,7 @@
             <div class="industries-block-one">
                 <div class="inner-box">
                     <div class="icon-box"><img src="{{ asset('assets/images/icons/E Commerce.png') }}" alt=""></div>
-                    <h3><a href="/Ecommerce">Ecommerce</a></h3>
+                    <h3><a href="/Ecommerce">Ecommerce </a></h3>
                 </div>
             </div>
             <div class="industries-block-one">
