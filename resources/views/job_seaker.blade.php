@@ -27,23 +27,23 @@
                     <div class="job-block-one">
                         <div class="upper-box">
                             <ul class="job-info">
-                                <li><i class="icon-43"></i>Posted by <span>6 months ago</span></li>
-                                <li>job Code: <span>0222512</span></li>
+                                {{-- <li><i class="icon-43"></i>Posted by <span>6 months ago</span></li> --}}
+                                <li>job Code: <span>3447</span></li>
                             </ul>
                         </div>
                         <div class="inner-box">
                             <div class="title-box">
                                 <div class="icon-box"><i class="icon-44"></i></div>
-                                <h3>Software Engineer</h3>
-                                <span>San Fransisco, California</span>
+                                <h3>Fullstack Engineer</h3>
+                                <span>Remote or In-Office (U.S. only)</span>
                             </div>
                             <div class="salary-box">
                                 <h5>Salary</h5>
-                                <span>$200 - $300 Per  Month</span>
+                                <span>$100K to $250K Annual + Benefits</span>
                             </div>
                             <div class="experience-box">
                                 <h5>Experience need</h5>
-                                <span>2 - 3 Yrs</span>
+                                <span>5+ years of Experience</span>
                             </div>
                             <div class="btn-box">
                                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7zkTxNuz0KlzbjyLcAhyx1jKu0Ya03HE9eTWH-kwgE-iKuw/viewform?usp=send_form" class="theme-btn btn-one">View Details</a>
