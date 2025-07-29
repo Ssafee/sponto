@@ -28,7 +28,7 @@
                         <div class="upper-box">
                             <ul class="job-info">
                                 {{-- <li><i class="icon-43"></i>Posted by <span>6 months ago</span></li> --}}
-                                <li>job Code: <span>3447</span></li>
+                                <li>Job Code: <span>3447</span></li>
                             </ul>
                         </div>
                         <div class="inner-box">
@@ -54,7 +54,7 @@
                         <div class="upper-box">
                             <ul class="job-info">
                                 {{-- <li><i class="icon-43"></i>Posted by <span>6 months ago</span></li> --}}
-                                <li>job Code: <span>0222512</span></li>
+                                <li>Job Code: <span>0222512</span></li>
                             </ul>
                         </div>
                         <div class="inner-box">
@@ -80,7 +80,7 @@
                         <div class="upper-box">
                             <ul class="job-info">
                                 {{-- <li><i class="icon-43"></i>Posted by <span>6 months ago</span></li> --}}
-                                <li>job Code: <span>0222512</span></li>
+                                <li>Job Code: <span>0222512</span></li>
                             </ul>
                         </div>
                         <div class="inner-box">
@@ -106,7 +106,7 @@
                         <div class="upper-box">
                             <ul class="job-info">
                                 {{-- <li><i class="icon-43"></i>Posted by <span>6 months ago</span></li> --}}
-                                <li>job Code: <span>0222512</span></li>
+                                <li>Job Code: <span>0222512</span></li>
                             </ul>
                         </div>
                         <div class="inner-box">
@@ -132,7 +132,7 @@
                         <div class="upper-box">
                             <ul class="job-info">
                                 {{-- <li><i class="icon-43"></i>Posted by <span>6 months ago</span></li> --}}
-                                <li>job Code: <span>0222512</span></li>
+                                <li>Job Code: <span>0222512</span></li>
                             </ul>
                         </div>
                         <div class="inner-box">
@@ -158,7 +158,7 @@
                         <div class="upper-box">
                             <ul class="job-info">
                                 {{-- <li><i class="icon-43"></i>Posted by <span>6 months ago</span></li> --}}
-                                <li>job Code: <span>0222512</span></li>
+                                <li>Job Code: <span>0222512</span></li>
                             </ul>
                         </div>
                         <div class="inner-box">
