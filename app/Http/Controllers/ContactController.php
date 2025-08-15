@@ -3,8 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Mail\ContactMail;
-use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -18,19 +16,34 @@ class ContactController extends Controller
             'message' => 'required|string',
         ]);
 
-        // Prepare data
-        $contactData = [
-            'username' => $request->username,
-            'phone' => empty($request->phone)?'-':$request->phone,
-            'email' => $request->email,
-            'subject' => $request->subject,
-            'message' => $request->message,
-        ];
+        // Prepare email content
+        $to = "mustafa@sponto.co";
+        $subject = $request->subject;
+        
+        $message = "
+        <html>
+        <head>
+            <title>{$request->subject}</title>
+        </head>
+        <body>
+            <p><strong>Name:</strong> {$request->username}</p>
+            <p><strong>Phone:</strong> " . (empty($request->phone) ? '-' : $request->phone) . "</p>
+            <p><strong>Email:</strong> {$request->email}</p>
+            <p><strong>Message:</strong><br>" . nl2br(htmlspecialchars($request->message)) . "</p>
+        </body>
+        </html>
+        ";
 
-        // Send email
-        Mail::to('mustafa@sponto.co')->send(new ContactMail($contactData));
+        // Set headers
+        $headers  = "MIME-Version: 1.0" . "\r\n";
+        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+        $headers .= "From: {$request->email}" . "\r\n";
 
-        // Redirect with success message
-        return back()->with('success', 'Your message has been sent successfully!');
+        // Send email using PHP's mail function
+        if (mail($to, $subject, $message, $headers)) {
+            return back()->with('success', 'Your message has been sent successfully!');
+        } else {
+            return back()->with('error', 'Failed to send your message. Please try again.');
+        }
     }
 }
