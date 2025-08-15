@@ -394,7 +394,7 @@
                                   
                                     <ul class="links-list clearfix">
                                         <li><a href="#">Phone: +1 (813) 957 9908</a></li>
-                                        <li><a href="#">Email: info@sopnto.co</a></li>
+                                        <li><a href="#">Email: info@sponto.co</a></li>
                                         <li><a href="#">Address: 312 W 2nd St Casper, WY 82601, USA</a></li>
 
                                         {{-- <li><a href="contact.html">Contact Us</a></li>
